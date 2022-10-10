@@ -6,9 +6,9 @@ import { containerContext } from '../App';
 const Home = () => {
   const homeSection = useRef(0);
   const { refVal, setRef } = useContext(containerContext);
-  useEffect(() => {
-    setRef({ ...refVal, home: homeSection.current.offsetTop });
-  }, []);
+  // useEffect(() => {
+  //   setRef({ ...refVal, home: homeSection.current.offsetTop });
+  // }, []);
 
   return (
     <div className="row m-0 home-wrapper" ref={homeSection}>

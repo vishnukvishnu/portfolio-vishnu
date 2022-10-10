@@ -9,9 +9,9 @@ import { containerContext } from '../App';
 const About = () => {
   const aboutSection = useRef(null);
   const { refVal, setRef } = useContext(containerContext);
-  useEffect(() => {
-    setRef({ ...refVal, about: aboutSection.current.offsetTop });
-  }, []);
+  // useEffect(() => {
+  //   setRef({ ...refVal, about: aboutSection.current.offsetTop });
+  // }, []);
 
   return (
     <div className="about-wrapper" ref={aboutSection}>

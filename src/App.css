@@ -482,7 +482,7 @@ padding: 1rem 0.2rem;
     padding: 1rem 1.4rem;
 }
 .right-home-wrapper img {
-    height: 450px;
+    height: 350px;
 }
 
 
@@ -494,10 +494,11 @@ padding: 1rem 0.2rem;
     text-align: center;
 }
 .about-wrapper .left-wrapper img{
-    height: 225px;
-    width: 250px;
+    height: 160px;
+    width: 160px;
     border-radius: 50%;
-    border: 0.15rem solid #f74709;
+    box-shadow: 0 3rem 6rem rgb(0 0 0 / 30%);
+    border: 0.1rem solid #f9fafb;
 }
 .about-wrapper .right-wrapper{
     padding-right: 0.8rem; 

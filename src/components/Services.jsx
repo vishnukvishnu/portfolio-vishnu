@@ -1,15 +1,15 @@
-import { useEffect, useContext, useRef } from 'react';
-import { containerContext } from '../App';
+// import { useEffect, useContext, useRef } from 'react';
+// import { containerContext } from '../App';
 
 const Services = () => {
-  const serviceSection = useRef(null);
-  const { refVal, setRef } = useContext(containerContext);
-  useEffect(() => {
-    setRef({ ...refVal, service: serviceSection.current.offsetTop });
-  }, []);
+  // const serviceSection = useRef(null);
+  // const { refVal, setRef } = useContext(containerContext);
+  // useEffect(() => {
+  //   setRef({ ...refVal, service: serviceSection.current.offsetTop });
+  // }, []);
 
   return (
-    <div className="service-wrapper" ref={serviceSection}>
+    <div className="service-wrapper" >
       <div className="services-header-wrapper">
         <h1 className="header-1">What I can do ?</h1>
         <p className="mb-0 roboto-medium">

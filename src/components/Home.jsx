@@ -1,17 +1,17 @@
 import profileImg from '../assets/profile-transperant-half.png';
 import lapIcon from '../assets/programming.png';
-import { useEffect, useRef, useContext } from 'react';
-import { containerContext } from '../App';
+// import { useEffect, useRef, useContext } from 'react';
+// import { containerContext } from '../App';
 
 const Home = () => {
-  const homeSection = useRef(0);
-  const { refVal, setRef } = useContext(containerContext);
+  // const homeSection = useRef(0);
+  // const { refVal, setRef } = useContext(containerContext);
   // useEffect(() => {
   //   setRef({ ...refVal, home: homeSection.current.offsetTop });
   // }, []);
 
   return (
-    <div className="row m-0 home-wrapper" ref={homeSection}>
+    <div className="row m-0 home-wrapper" >
       <div className="col-12 col-md-7 left-home-wrapper">
         <div>
           <h4 className="header-2 header-mb-2 mb-4">

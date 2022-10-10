@@ -3,18 +3,18 @@ import oracleIcon from '../assets/images/logos/oracle-logo.png';
 import wiproIcon from '../assets/images/logos/wipro-logo.png';
 import topCodeIcon from '../assets/images/logos/topcoder.png';
 import bitsIcon from '../assets/images/logos/bits-logo.png';
-import { useEffect, useContext, useRef } from 'react';
-import { containerContext } from '../App';
+// import { useEffect, useContext, useRef } from 'react';
+// import { containerContext } from '../App';
 
 const About = () => {
-  const aboutSection = useRef(null);
-  const { refVal, setRef } = useContext(containerContext);
+  // const aboutSection = useRef(null);
+  // const { refVal, setRef } = useContext(containerContext);
   // useEffect(() => {
   //   setRef({ ...refVal, about: aboutSection.current.offsetTop });
   // }, []);
 
   return (
-    <div className="about-wrapper" ref={aboutSection}>
+    <div className="about-wrapper" >
       <div className="row m-0">
         <div className="col-12 col-md-4"></div>
         <div className="col-12 col-md-8 mb-3 about-header-wrapper">

@@ -1,8 +1,9 @@
-import meOracle from '../assets/me-oracle.jpg';
+// import meOracle from '../assets/me-oracle.jpg';
 import oracleIcon from '../assets/images/logos/oracle-logo.png';
 import wiproIcon from '../assets/images/logos/wipro-logo.png';
 import topCodeIcon from '../assets/images/logos/topcoder.png';
 import bitsIcon from '../assets/images/logos/bits-logo.png';
+import profileRound from "../assets/profile-round.png"
 // import { useEffect, useContext, useRef } from 'react';
 // import { containerContext } from '../App';
 
@@ -25,7 +26,7 @@ const About = () => {
       <div className="row m-0">
         <div className="col-12 col-md-4 left-wrapper">
           <div>
-            <img src={meOracle} alt="" />
+            <img src={profileRound} alt="" />
           </div>
         </div>
         <div className="col-md-8 right-wrapper">
@@ -37,7 +38,7 @@ const About = () => {
           <p className="mt-4 mb-4">
             Experienced Frontend Developer with a demonstrated history of
             working in the information technology and services industry. Skilled
-            in{' '}
+            in
             <strong>
               ReactJs, Redux, Angular 8, Nodejs, Javascript, SCSS, HTML, NextJS,
               MongoDB, Agile Methodologies, Angular Material, inVision,

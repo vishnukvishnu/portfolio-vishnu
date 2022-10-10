@@ -11,14 +11,14 @@ const Home = () => {
   // }, []);
 
   return (
-    <div className="row m-0 home-wrapper" >
+    <div className="row m-0 home-wrapper">
       <div className="col-12 col-md-7 left-home-wrapper">
-        <div>
+        <div className="wrapper">
           <h4 className="header-2 header-mb-2 mb-4">
             WELCOME TO MY PORTFOLIO!
           </h4>
           <h1 className="header-1 header-sm-mt-2 red-c">VISHNU K</h1>
-          <div className="ms-2 programming-wrapper">
+          <div className="programming-wrapper">
             <img src={lapIcon} alt="" />
             <h5 className="header-3">UI Developer</h5>
           </div>
@@ -60,7 +60,11 @@ const Home = () => {
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/vishnuk__k" target="_blank" rel="noreferrer">
+              <a
+                href="https://twitter.com/vishnuk__k"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fa fa-twitter"></i>
               </a>
             </li>

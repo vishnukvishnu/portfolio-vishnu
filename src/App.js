@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Containter from './components/Containter';
+import { useState, createContext } from 'react';
 
-function App() {
+export const containerContext = createContext('');
+const App = () => {
+  const [refVal, setRef] = useState({ home: '', about: '', service: '' });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <containerContext.Provider value={{ refVal, setRef }}>
+        <Containter />
+      </containerContext.Provider>
+    </>
   );
-}
+};
 
 export default App;

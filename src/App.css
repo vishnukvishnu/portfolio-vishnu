@@ -513,7 +513,9 @@ padding: 1rem 0.2rem;
 .service-wrapper .services-details-wrapper{
     padding: 0 1.4rem;
 }
-
+.about-wrapper .acadamic-wrapper ul li {
+    margin: 20px;
+}
 
 /* styles for project section */
 .project-wrapper{

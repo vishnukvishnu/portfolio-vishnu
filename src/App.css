@@ -25,7 +25,12 @@
     font-weight: bold;
     font-size: .8rem;
     cursor: pointer;
-    padding-right: 3rem;
+    margin-right: 3rem;
+}
+.header-wrapper .right-nav-wrapper .navigation-link:hover{
+    background: #fff;
+    color: #dd2c00;
+    transition: background .4s, color .4s;
 }
 
 /* styles for home */
@@ -47,21 +52,22 @@
 }
 .left-home-wrapper .social-media-wrapper .fa{
     display: inline-block;
-    padding: 1rem 3rem 0 .4rem;
+    padding: .3rem; 
     font-size: 2.2rem;
 }
 .left-home-wrapper .social-media-wrapper a{
     color: #000;
 }
-.left-home-wrapper .social-media-wrapper li .fa:before{
-    /* padding: 1rem; */
+
+.left-home-wrapper .social-media-wrapper li{
+     padding: 1rem 2rem 0 0;
 }
-.left-home-wrapper .social-media-wrapper li:hover .fa:before{
-    background: #f74709;
+
+.left-home-wrapper .social-media-wrapper li:hover .fa{
+    background: #dd2c00;
     border-radius: 6px;
-    padding: 4px;
     color: #fff;
-    transition: background .2s,color .2s,;
+    transition: background .4s, color .4s;
 }
 .left-home-wrapper .social-media-wrapper a:hover{
     color: #000;
@@ -111,7 +117,9 @@
 .about-wrapper .right-wrapper{
     padding-right: 200px;
 }
-
+.about-wrapper .left-wrapper img{
+    border-radius: 2px;
+}
 .about-wrapper .right-wrapper p{
    text-align: justify;
 }
@@ -122,7 +130,7 @@
 .about-wrapper .technology-wrapper .fa{
     display: inline-block;
     margin-right: 0.5rem;
-    color: #f74709;
+    color: #dd2c00;
     font-size: .6rem;
 }
 .about-wrapper .technology-wrapper ul{
@@ -131,7 +139,7 @@
     font-weight: bold;
 }
 .about-wrapper .technology-wrapper h6{
-    color:#f74709;
+    color:#dd2c00;
 }
 .about-wrapper .technology-wrapper ul li{
     display: flex;
@@ -252,7 +260,12 @@
     margin-top: 1rem;
 }
 .services-details-wrapper .slide .btn-wrapper a{
-    color:#f74709;
+    color:#dd2c00;
+     /* transition: color .5s; */
+}
+.services-details-wrapper .slide .btn-wrapper a:hover{
+    /* color:#fff; */
+    /* transition: color .5s; */
 }
 .services-details-wrapper .slide .dev-info h4{
     font-size: .9rem;
@@ -268,7 +281,7 @@
 .services-details-wrapper .slide .dev-info ul .fa{
     display: inline-block;
     margin-right: 0.5rem;
-    color: #f74709;
+    color: #dd2c00;
     font-size: .4rem;
 }
 
@@ -356,12 +369,13 @@
 }
 .project-details-wrapper .cards .card-back .fa{
     font-size: 3rem;
-    color: #f74709;
+    color: #dd2c00;
 }
 .project-details-wrapper .cards .card-back h3{
-    margin: .2rem 0 1rem;
-    font-size: 1.4rem;
+    margin: .4rem 0 .6rem;
+    font-size: 1rem;
     font-weight: bold;
+    color: #dd2c00;
 }
 .project-details-wrapper .cards .card-back p{
     font-size: .9rem;
@@ -391,7 +405,7 @@
 
 .contact-details-wrapper .cards .fa{
     font-size: 2.6rem;
-    color: #f74709;
+    color: #dd2c00;
 }
 
 .contact-details-wrapper .cards h5{
@@ -464,7 +478,7 @@ padding: 1rem 0.2rem;
 .header-wrapper .right-nav-wrapper .navigation-link .fa{
     font-size: 1rem;
     padding-right: 1.6rem;
-    color: #f74709;
+    color: #dd2c00;
 }
 
 /* media queires for home  */
@@ -487,8 +501,8 @@ padding: 1rem 0.2rem;
     margin-bottom: 3rem;
     margin-left: 0;
 } 
-.left-home-wrapper .social-media-wrapper .fa{
-    padding: 1rem 1.4rem;
+.left-home-wrapper .social-media-wrapper li{
+    padding: 1rem;
 }
 .right-home-wrapper img {
     height: 350px;

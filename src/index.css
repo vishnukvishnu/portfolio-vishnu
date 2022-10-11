@@ -98,8 +98,11 @@ li {
 .display-block{
   display: block;
 }
-.red-c{
+/* .red-c{
   color: #f74709;
+} */
+.red-c{
+  color: #dd2c00;
 }
 .black-c{
   color: #000;
@@ -125,7 +128,7 @@ li {
 }
 .btn-std{
   background-color: #fff;
-  color: #f74709;
+  color: #dd2c00;
   border: .1rem solid #dfdddd8c;
   text-transform: uppercase;
   text-decoration: none;
@@ -137,6 +140,11 @@ li {
   font-weight: bold;
   cursor: pointer;
   box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 15%);
+}
+.btn-std:hover{
+  /* background: #dd2c00; */
+  /* color: #fff; */
+  /* transition: background .5s, color .5s; */
 }
 .cards{
   display: flex;

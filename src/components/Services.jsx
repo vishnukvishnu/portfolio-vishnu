@@ -9,7 +9,7 @@ const Services = () => {
   // }, []);
 
   return (
-    <div className="service-wrapper" >
+    <div className="service-wrapper">
       <div className="services-header-wrapper">
         <h1 className="header-1">What I can do ?</h1>
         <p className="mb-0 roboto-medium">
@@ -46,7 +46,7 @@ const Services = () => {
                 </ul>
               </div>
               <div className="btn-wrapper">
-              {/* <button class="col-sm-6" onclick="window.location.href = 'tel:+918943260360';">Call Us</button>
+                {/* <button class="col-sm-6" onclick="window.location.href = 'tel:+918943260360';">Call Us</button>
               <button class="col-sm-6 ml-3" onclick="window.location.href = 'https://wa.me/+918943260360';">WhatsApp</button> */}
                 <button className="btn-std me-2">
                   <a
@@ -57,7 +57,11 @@ const Services = () => {
                     Whatsapp
                   </a>
                 </button>
-                <button className="btn-std">Email</button>
+                <button className="btn-std">
+                  <a href="tel:+9645160131" target="_blank" rel="noreferrer">
+                    Call
+                  </a>
+                </button>
               </div>
             </div>
           </div>
@@ -99,7 +103,7 @@ const Services = () => {
                     Whatsapp
                   </a>
                 </button>
-                <button className="btn-std">Email</button>
+                <button className="btn-std">Call</button>
               </div>
             </div>
           </div>
@@ -144,7 +148,7 @@ const Services = () => {
                     Whatsapp
                   </a>
                 </button>
-                <button className="btn-std">Email</button>
+                <button className="btn-std">Call</button>
               </div>
             </div>
           </div>
@@ -185,44 +189,11 @@ const Services = () => {
                     Whatsapp
                   </a>
                 </button>
-                <button className="btn-std">Email</button>
+                <button className="btn-std">Call</button>
               </div>
             </div>
           </div>
         </div>
-        {/* <div className="col-sm-4">
-          <div className="cards">
-            <div className="icon-wrapper">
-              <i className="fa fa-solid fa-code"></i>
-            </div>
-            <p>Web developement(React,Angular,JS)</p>
-          </div>
-        </div>
-        <div className="col-sm-4">
-          <div className="cards">
-            <div className="icon-wrapper">
-              <i className="fa fa-mobile fa-icons" aria-hidden="true"></i>
-            </div>
-            <p>Mobile App Development</p>
-          </div>
-        </div>
-
-        <div className="col-sm-4 ">
-          <div className="cards ">
-            <div className="icon-wrapper">
-              <i className="fa fa-pencil-square"></i>
-            </div>
-            <p>Technical Blog Writing</p>
-          </div>
-        </div>
-        <div className="col-sm-4">
-          <div className="cards">
-            <div className="icon-wrapper">
-              <i className="fa fa-solid fa-laptop-code"></i>
-            </div>
-            <p>Topcoder Challenges</p>
-          </div>
-        </div> */}
       </div>
     </div>
   );

@@ -77,7 +77,7 @@ const About = () => {
               </div>
               <div className="mt-3">
                 <span className="title">Age:</span>
-                <span className="info">24</span>
+                <span className="info">29</span>
               </div>
             </div>
             <div>

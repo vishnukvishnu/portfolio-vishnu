@@ -47,7 +47,7 @@ const Services = () => {
               </div>
               <div className="btn-wrapper">
                 {/* <button class="col-sm-6" onclick="window.location.href = 'tel:+918943260360';">Call Us</button>
-              <button class="col-sm-6 ml-3" onclick="window.location.href = 'https://wa.me/+918943260360';">WhatsApp</button> */}
+                    <button class="col-sm-6 ml-3" onclick="window.location.href = 'https://wa.me/+918943260360';">WhatsApp</button> */}
                 <button className="btn-std me-2">
                   <a
                     href="https://api.whatsapp.com/send?phone=9645160131"

@@ -459,10 +459,10 @@ padding: 1rem 0.2rem;
 }
 .header-wrapper .left-nav-mobile-wrapper img{
     position: absolute;
-    left: 200px;
+    left: 210px;
     top: -6px;
     z-index: 1111;
-    width: 90px;
+    width: 5rem;
 }
 .header-wrapper .right-nav-wrapper .navigation-link{
     padding: 1.6rem 0; 

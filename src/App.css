@@ -53,6 +53,16 @@
 .left-home-wrapper .social-media-wrapper a{
     color: #000;
 }
+.left-home-wrapper .social-media-wrapper li .fa:before{
+    /* padding: 1rem; */
+}
+.left-home-wrapper .social-media-wrapper li:hover .fa:before{
+    background: #f74709;
+    border-radius: 6px;
+    padding: 4px;
+    color: #fff;
+    transition: background .2s,color .2s,;
+}
 .left-home-wrapper .social-media-wrapper a:hover{
     color: #000;
 }
@@ -456,7 +466,6 @@ padding: 1rem 0.2rem;
     padding-right: 1.6rem;
     color: #f74709;
 }
-
 
 /* media queires for home  */
 .home-wrapper{

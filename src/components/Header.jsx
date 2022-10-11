@@ -37,6 +37,7 @@ const Header = ({ scrollFn }) => {
             >
               <button className="btn-std">
                 <span>Resume</span>
+                <i class="fa fa-solid fa-arrow-right ms-3"></i>
               </button>
             </a>
           </li>

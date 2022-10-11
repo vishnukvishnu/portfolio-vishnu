@@ -100,7 +100,10 @@ const Projects = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="btn-std">Show More</button>
+            <button className="btn-std">
+              <span>Show More</span>
+              <i class="fa fa-solid fa-arrow-right ms-3"></i>
+            </button>
           </a>
         </a>
       </div>

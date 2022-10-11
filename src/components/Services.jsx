@@ -48,20 +48,16 @@ const Services = () => {
               <div className="btn-wrapper">
                 {/* <button class="col-sm-6" onclick="window.location.href = 'tel:+918943260360';">Call Us</button>
                     <button class="col-sm-6 ml-3" onclick="window.location.href = 'https://wa.me/+918943260360';">WhatsApp</button> */}
-                <button className="btn-std me-2">
-                  <a
-                    href="https://api.whatsapp.com/send?phone=9645160131"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Whatsapp
-                  </a>
-                </button>
-                <button className="btn-std">
-                  <a href="tel:+9645160131" target="_blank" rel="noreferrer">
-                    Call
-                  </a>
-                </button>
+                <a
+                  href="https://api.whatsapp.com/send?phone=9645160131"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn-std me-2">Whatsapp</button>
+                </a>
+                <a href="tel:+9645160131" target="_blank" rel="noreferrer">
+                  <button className="btn-std"> Call </button>
+                </a>
               </div>
             </div>
           </div>
@@ -94,20 +90,16 @@ const Services = () => {
                 </ul>
               </div>
               <div className="btn-wrapper">
-                <button className="btn-std me-2">
-                  <a
-                    href="https://api.whatsapp.com/send?phone=9645160131"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Whatsapp
-                  </a>
-                </button>
-                <button className="btn-std">
-                  <a href="tel:+9645160131" target="_blank" rel="noreferrer">
-                    Call
-                  </a>
-                </button>
+                <a
+                  href="https://api.whatsapp.com/send?phone=9645160131"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn-std me-2">Whatsapp</button>
+                </a>
+                <a href="tel:+9645160131" target="_blank" rel="noreferrer">
+                  <button className="btn-std"> Call</button>
+                </a>
               </div>
             </div>
           </div>
@@ -143,20 +135,16 @@ const Services = () => {
                 </ul>
               </div>
               <div className="btn-wrapper">
-                <button className="btn-std me-2">
-                  <a
-                    href="https://api.whatsapp.com/send?phone=9645160131"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Whatsapp
-                  </a>
-                </button>
-                <button className="btn-std">
-                  <a href="tel:+9645160131" target="_blank" rel="noreferrer">
-                    Call
-                  </a>
-                </button>
+                <a
+                  href="https://api.whatsapp.com/send?phone=9645160131"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn-std me-2">Whatsapp</button>
+                </a>
+                <a href="tel:+9645160131" target="_blank" rel="noreferrer">
+                  <button className="btn-std">Call</button>
+                </a>
               </div>
             </div>
           </div>
@@ -188,20 +176,16 @@ const Services = () => {
                 </ul>
               </div>
               <div className="btn-wrapper">
-                <button className="btn-std me-2">
-                  <a
-                    href="https://api.whatsapp.com/send?phone=9645160131"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Whatsapp
-                  </a>
-                </button>
-                <button className="btn-std">
-                  <a href="tel:+9645160131" target="_blank" rel="noreferrer">
-                    Call
-                  </a>
-                </button>
+                <a
+                  href="https://api.whatsapp.com/send?phone=9645160131"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn-std me-2">Whatsapp</button>
+                </a>
+                <a href="tel:+9645160131" target="_blank" rel="noreferrer">
+                  <button className="btn-std">Call</button>
+                </a>
               </div>
             </div>
           </div>

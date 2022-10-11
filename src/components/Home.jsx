@@ -52,11 +52,11 @@ const Home = () => {
             </li>
             <li>
               <a
-                href="https://www.facebook.com/vishnuk.logan"
+                href="https://api.whatsapp.com/send?phone=9645160131"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-facebook-square"></i>
+                <i className="fa fa-brands fa-square-whatsapp"></i>
               </a>
             </li>
             <li>

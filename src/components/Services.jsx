@@ -103,7 +103,11 @@ const Services = () => {
                     Whatsapp
                   </a>
                 </button>
-                <button href="tel:+9645160131" className="btn-std">Call</button>
+                <button className="btn-std">
+                  <a href="tel:+9645160131" target="_blank" rel="noreferrer">
+                    Call
+                  </a>
+                </button>
               </div>
             </div>
           </div>
@@ -148,7 +152,11 @@ const Services = () => {
                     Whatsapp
                   </a>
                 </button>
-                <button href="tel:+9645160131" className="btn-std">Call</button>
+                <button className="btn-std">
+                  <a href="tel:+9645160131" target="_blank" rel="noreferrer">
+                    Call
+                  </a>
+                </button>
               </div>
             </div>
           </div>
@@ -189,7 +197,11 @@ const Services = () => {
                     Whatsapp
                   </a>
                 </button>
-                <button href="tel:+9645160131" className="btn-std">Call</button>
+                <button className="btn-std">
+                  <a href="tel:+9645160131" target="_blank" rel="noreferrer">
+                    Call
+                  </a>
+                </button>
               </div>
             </div>
           </div>

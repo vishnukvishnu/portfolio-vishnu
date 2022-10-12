@@ -83,7 +83,8 @@ const Header = ({ scrollFn }) => {
                 rel="noreferrer"
               >
                 <button className="btn-std">
-                  <i className="fa fa-file"></i> <span>Resume</span>
+                  <i className="fa fa-file"></i>
+                  <span>Resume</span>
                 </button>
               </a>
             </li>

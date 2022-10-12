@@ -480,7 +480,9 @@ padding: 1rem 0.2rem;
     padding-right: 1.6rem;
     color: #dd2c00;
 }
-
+.header-wrapper .right-nav-wrapper .navigation-link .btn-std:hover .fa-file{
+    color: #fff;
+}
 /* media queires for home  */
 .home-wrapper{
     position: relative;

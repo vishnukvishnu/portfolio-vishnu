@@ -155,13 +155,11 @@
     transition:color .4s;
 }
 .about-wrapper .personal-info-wrapper {
-    display: flex;
-    justify-content: space-between;
     margin-top: 16px;
 }
 .about-wrapper .personal-info-wrapper .title{
     display: inline-block;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: bold;
     margin-right: 0.2rem;
 }

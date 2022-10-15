@@ -20,7 +20,7 @@ const Home = () => {
           <h1 className="header-1 header-sm-mt-2 red-c">VISHNU K</h1>
           <div className="programming-wrapper">
             <img src={lapIcon} alt="" />
-            <h5 className="header-3">UI Developer</h5>
+            <h5 className="header-3">UI/UX Developer</h5>
           </div>
           <ul className="social-media-wrapper">
             <li>

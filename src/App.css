@@ -466,26 +466,39 @@ padding: 1rem 0.2rem;
 }
 .header-wrapper .left-nav-mobile-wrapper img{
     position: absolute;
-    left: 210px;
+    right: 94px;
     top: -6px;
     z-index: 1111;
-    width: 5rem;
+    width: 4rem;
 }
 .header-wrapper .right-nav-wrapper .navigation-link{
-    padding: 1.6rem 0; 
+    padding: 1rem 0; 
     font-size: .8rem;
+    width:100%;
 }
 .header-wrapper .right-nav-wrapper .navigation-link button{
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: center;
-    padding: 0.8rem 2rem;
+    padding: 0.8rem 8rem;
+    margin-top: 1rem;
 }
 .header-wrapper .right-nav-wrapper .navigation-link .fa{
     font-size: 1rem;
     padding-right: 1.6rem;
+    margin-left: 50px;
     color: #dd2c00;
+}
+.header-wrapper .right-nav-wrapper .navigation-link:last-child  .fa{
+    margin-left: 0;
+}
+.header-wrapper .right-nav-wrapper .navigation-link:last-child{
+    display: flex;
+    justify-content: center;
+}
+.header-wrapper .right-nav-wrapper .navigation-link:hover .fa{
+    color: #fff;
 }
 .header-wrapper .right-nav-wrapper .navigation-link .btn-std:hover .fa-file{
     color: #fff;
@@ -658,7 +671,7 @@ padding: 1rem 0.2rem;
    position: absolute;
    width: 22rem;
    margin: -100px 0 0 -50px;
-   padding: 50px;
+   padding: 50px 0 50px 10px;
    padding-top: 125px;
    
    background: #fff;

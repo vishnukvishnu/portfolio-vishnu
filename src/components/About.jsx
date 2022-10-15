@@ -49,7 +49,7 @@ const About = () => {
           </p>
           <div className="pt-4 pb-4 technology-wrapper">
             <h6 className="roboto-bold mb-3">
-              Few Topcoder challenges i won:
+            Topcoder Challenge Links:
             </h6>
             <ul className='row'>
               <li className='col-12 col-md-6'>

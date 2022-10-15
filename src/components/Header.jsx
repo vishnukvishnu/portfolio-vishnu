@@ -21,10 +21,10 @@ const Header = ({ scrollFn }) => {
             ABOUT
           </li>
           <li className="navigation-link" onClick={scrollFn}>
-            SERVICES
+            PROJECTS
           </li>
           <li className="navigation-link" onClick={scrollFn}>
-            PROJECTS
+            SERVICES
           </li>
           <li className="navigation-link" onClick={scrollFn}>
             CONTACT
@@ -68,10 +68,10 @@ const Header = ({ scrollFn }) => {
               <i className="fa fa-user"></i>ABOUT
             </li>
             <li className="navigation-link" onClick={scrollFn}>
-              <i className="fa fa-code"></i>SERVICES
+              <i className="fa fa-project-diagram"></i>PROJECTS
             </li>
             <li className="navigation-link" onClick={scrollFn}>
-              <i className="fa fa-project-diagram"></i>PROJECTS
+              <i className="fa fa-code"></i>SERVICES
             </li>
             <li className="navigation-link" onClick={scrollFn}>
               <i className="fa fa-phone-square-alt"></i>CONTACT

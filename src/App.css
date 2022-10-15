@@ -188,9 +188,81 @@
     height: 70px;
 }
 
+
+
+/* styles for project section */
+.project-wrapper{
+    padding: 0 175px;
+    margin-top: 120px;
+}
+.project-header-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-details-wrapper{
+    justify-content: center;
+}
+.project-details-wrapper .cards{
+    position: relative;
+}
+.project-details-wrapper .cards .card-front{
+    position: absolute;
+    width: 100%;
+    height: 18rem;
+    padding: 8px;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s, visibility 1s;
+}
+.project-details-wrapper .cards .card-back img{
+    width: 3rem;
+    height: 3rem;
+}
+.project-details-wrapper .cards:hover .card-front{
+    visibility: hidden;
+    opacity: 0;
+}
+.project-details-wrapper .cards:hover .card-back{
+    visibility: visible;
+    opacity: 1;
+}
+.project-details-wrapper .cards .card-back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s, visibility 1s;
+}
+.project-details-wrapper .cards .card-back .fa{
+    font-size: 3rem;
+    color: #dd2c00;
+}
+.project-details-wrapper .cards .card-back h3{
+    margin: .4rem 0 .6rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #dd2c00;
+}
+.project-details-wrapper .cards .card-back p{
+    font-size: .9rem;
+    text-align: center;
+}
+.project-wrapper .show-more-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+
+
 /* styles for service section */
 .service-wrapper{
-    padding: 0 200px 0 150px;
+    padding: 0 175px;
     margin-top: 120px;
 }
 .services-header-wrapper{
@@ -325,78 +397,9 @@
 }
 
 
-/* styles for project section */
-.project-wrapper{
-    padding: 0 200px 0 150px;
-    margin-top: 120px;
-}
-.project-header-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-details-wrapper{
-    justify-content: center;
-}
-.project-details-wrapper .cards{
-    position: relative;
-}
-.project-details-wrapper .cards .card-front{
-    position: absolute;
-    width: 100%;
-    height: 18rem;
-    padding: 8px;
-    visibility: visible;
-    opacity: 1;
-    transition: opacity 1s, visibility 1s;
-}
-.project-details-wrapper .cards .card-back img{
-    width: 3rem;
-    height: 3rem;
-}
-.project-details-wrapper .cards:hover .card-front{
-    visibility: hidden;
-    opacity: 0;
-}
-.project-details-wrapper .cards:hover .card-back{
-    visibility: visible;
-    opacity: 1;
-}
-.project-details-wrapper .cards .card-back{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 40px 20px;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 1s, visibility 1s;
-}
-.project-details-wrapper .cards .card-back .fa{
-    font-size: 3rem;
-    color: #dd2c00;
-}
-.project-details-wrapper .cards .card-back h3{
-    margin: .4rem 0 .6rem;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #dd2c00;
-}
-.project-details-wrapper .cards .card-back p{
-    font-size: .9rem;
-    text-align: center;
-}
-.project-wrapper .show-more-wrapper{
-    display: flex;
-    justify-content: center;
-}
-
-
 /* styles for contact section */
 .contact-wrapper{
-    padding: 0 200px 0 150px;
+    padding: 0 175px;
     margin-top: 120px;
 }
 .contact-header-wrapper{
@@ -411,7 +414,7 @@
 }
 
 .contact-details-wrapper .cards .fa{
-    font-size: 2.6rem;
+    font-size: 2rem;
     color: #dd2c00;
 }
 
@@ -433,7 +436,7 @@
     justify-content: center;
     width: 100%;
     padding: 10px 0;
-    margin: 120px 0 20px; 
+    margin: 100px 0 20px; 
 }
 .footer-wrapper img{
     width: 15px;

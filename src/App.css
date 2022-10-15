@@ -467,12 +467,12 @@ padding: 1rem 0.2rem;
 .header-wrapper .left-nav-mobile-wrapper img{
     position: absolute;
     right: 94px;
-    top: -6px;
+    top: -4px;
     z-index: 1111;
     width: 4rem;
 }
 .header-wrapper .right-nav-wrapper .navigation-link{
-    padding: 1rem 0; 
+    padding: 1.4rem 0; 
     font-size: .8rem;
     width:100%;
 }

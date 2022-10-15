@@ -3,7 +3,7 @@
 .header-wrapper{
     width: 100%;
     position: fixed;
-    padding:.6rem 1rem;
+    padding:0 1rem;
     background: white;
     z-index: 9; 
 }
@@ -13,7 +13,7 @@
     justify-content: space-between;
 }
 .left-nav-wrapper img{
-    width: 6rem;
+    width: 5rem;
 }
 .header-wrapper .right-nav-wrapper{
     margin:0;
@@ -25,13 +25,15 @@
     font-weight: bold;
     font-size: .8rem;
     cursor: pointer;
-    margin-right: 3rem;
+    padding: 0.6rem 1.6rem;
+    border-radius: 2px;
 }
-.header-wrapper .right-nav-wrapper .navigation-link:hover{
-    background: #fff;
-    color: #dd2c00;
+.header-wrapper .right-nav-wrapper .navigation-link:not(:last-child):hover{
+    background: #dd2c00;
+    color: #fff;
     transition: background .4s, color .4s;
 }
+
 
 /* styles for home */
 .home-wrapper{
@@ -130,12 +132,11 @@
 .about-wrapper .technology-wrapper .fa{
     display: inline-block;
     margin-right: 0.5rem;
-    color: #dd2c00;
     font-size: .6rem;
 }
 .about-wrapper .technology-wrapper ul{
     display: flex;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: bold;
 }
 .about-wrapper .technology-wrapper h6{
@@ -144,7 +145,14 @@
 .about-wrapper .technology-wrapper ul li{
     display: flex;
     align-items: center;
-    margin-right: 3rem;
+    margin-bottom: 0.2rem;
+}
+.about-wrapper .technology-wrapper ul li a{
+    color: #000;
+}
+.about-wrapper .technology-wrapper ul li a:hover{
+    color: #dd2c00;
+    transition:color .4s;
 }
 .about-wrapper .personal-info-wrapper {
     display: flex;

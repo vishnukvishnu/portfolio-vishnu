@@ -49,23 +49,36 @@ const About = () => {
           </p>
           <div className="pt-4 pb-4 technology-wrapper">
             <h6 className="roboto-bold mb-3">
-              Technologies i have worked with:
+              Few Topcoder challenges i won:
             </h6>
-            <ul>
-              <li>
-                <i className="fa fa-play"></i>React
+            <ul className='row'>
+              <li className='col-12 col-md-6'>
+                <i className="fa fa-play"></i>
+                <a href="https://lssa.netlify.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >https://lssa.netlify.app</a>
               </li>
-              <li>
-                <i className="fa fa-play"></i>Angular
+              <li className='col-12 col-md-6'>
+                <i className="fa fa-play"></i>    
+                <a href=" https://embarkk.netlify.app"
+                  target="_blank"
+                  rel="noreferrer"
+                > https://embarkk.netlify.app</a>
               </li>
-              <li>
-                <i className="fa fa-play"></i>Javascript
+              <li className='col-12 col-md-6'>
+                <i className="fa fa-play"></i>
+                <a href="https://wilp-faculty.netlify.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >https://wilp-faculty.netlify.app</a>
               </li>
-              <li>
-                <i className="fa fa-play"></i>HTML
-              </li>
-              <li>
-                <i className="fa fa-play"></i>SCCS
+              <li className='col-12 col-md-6'>
+                <i className="fa fa-play"></i>
+                <a href="https://holmes-e-kyc-ui.netlify.app"
+                  target="_blank"
+                  rel="noreferrer"
+                > https://holmes-e-kyc-ui.netlify.app</a>
               </li>
             </ul>
           </div>

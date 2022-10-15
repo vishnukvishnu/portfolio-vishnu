@@ -1,5 +1,5 @@
 import './App.css';
-import Containter from './components/Containter';
+import PortfolioWrapper from './components';
 import { useState, createContext } from 'react';
 
 export const containerContext = createContext('');
@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <containerContext.Provider value={{ refVal, setRef }}>
-        <Containter />
+        <PortfolioWrapper />
       </containerContext.Provider>
     </>
   );

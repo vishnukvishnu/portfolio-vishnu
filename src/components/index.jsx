@@ -8,7 +8,7 @@ import Footer from './Footer';
 import { useContext } from 'react';
 import { containerContext } from '../App';
 
-const Containter = () => {
+const PortfolioWrapper = () => {
   const { refVal } = useContext(containerContext);
   const scrollDown = (a) => {
     console.log(refVal);
@@ -23,8 +23,8 @@ const Containter = () => {
       <main>
         <Home />
         <About />
-        <Service />
         <Projects />
+        <Service />
         <Contact />
         <Footer />
       </main>
@@ -32,4 +32,4 @@ const Containter = () => {
   );
 };
 
-export default Containter;
+export default PortfolioWrapper;

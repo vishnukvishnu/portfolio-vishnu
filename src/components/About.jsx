@@ -83,7 +83,7 @@ const About = () => {
             </ul>
           </div>
           <div className="row personal-info-wrapper">
-            <div className='col-6 col-md-6'>
+            <div className='col-5 col-md-6'>
               <div>
                 <span className="title">Name:</span>
                 <span className="info">Vishnu K</span>
@@ -93,7 +93,7 @@ const About = () => {
                 <span className="info">29</span>
               </div>
             </div>
-            <div className='col-6 col-md-6'>
+            <div className='col-7 col-md-6'>
               <div>
                 <span className="title">Email:</span>
                 <span className="info">vishnulogan4@gmail.com</span>

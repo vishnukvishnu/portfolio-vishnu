@@ -3,12 +3,13 @@ import oracleIcon from '../assets/images/logos/oracle-logo.png';
 import wiproIcon from '../assets/images/logos/wipro-logo.png';
 import topCodeIcon from '../assets/images/logos/topcoder.png';
 import bitsIcon from '../assets/images/logos/bits-logo.png';
-import profileRound from '../assets/profile-round.png';
-// import { useEffect, useContext, useRef } from 'react';
-// import { containerContext } from '../App';
+import profileImg from '../assets/profile-img.png';
+import profileIimgMb from '../assets/profile-img-mb.png';
+import { useEffect, useContext, useRef } from 'react';
+import { containerContext } from '../App';
 
 const About = () => {
-  // const aboutSection = useRef(null);
+  // const aboutSection = useRef();
   // const { refVal, setRef } = useContext(containerContext);
   // useEffect(() => {
   //   setRef({ ...refVal, about: aboutSection.current.offsetTop });
@@ -26,7 +27,10 @@ const About = () => {
       <div className="row m-0">
         <div className="col-12 col-md-4 left-wrapper">
           <div>
-            <img src={profileRound} alt="" />
+            <picture>
+                <source media="(max-width: 56.25em)" srcset={profileIimgMb} />
+                <img src={profileImg} alt="Flowers"/>
+            </picture>
           </div>
         </div>
         <div className="col-md-8 right-wrapper">
@@ -114,7 +118,7 @@ const About = () => {
                 >
                   <button className="btn-std">
                     <span>Resume</span>
-                    <i class="fa fa-solid fa-arrow-right ms-3"></i>
+                    <i className="fa fa-solid fa-arrow-right ms-3"></i>
                   </button>
                 </a>
               </li>

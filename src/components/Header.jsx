@@ -31,13 +31,13 @@ const Header = ({ scrollFn }) => {
           </li>
           <li className="navigation-link width-100">
             <a
-              href=" https://drive.google.com/drive/folders/1srW8GPGMytJIc67muCNL2hWTQnSa3RTw"
+              href="https://drive.google.com/drive/folders/1srW8GPGMytJIc67muCNL2hWTQnSa3RTw"
               target="_blank"
               rel="noreferrer"
             >
               <button className="btn-std">
                 <span>Resume</span>
-                <i class="fa fa-solid fa-arrow-right ms-3"></i>
+                <i className="fa fa-solid fa-arrow-right ms-3"></i>
               </button>
             </a>
           </li>
@@ -58,8 +58,7 @@ const Header = ({ scrollFn }) => {
               className="navigation-link"
               onClick={() => scrollFn(refVal.home)}
             >
-              <i className="fa fa-home-alt"></i>
-              HOME
+              <i className="fa fa-home-alt"></i>HOME
             </li>
             <li
               className="navigation-link"
@@ -78,13 +77,11 @@ const Header = ({ scrollFn }) => {
             </li>
             <li className="navigation-link width-100">
               <a
-                href=" https://drive.google.com/drive/folders/1srW8GPGMytJIc67muCNL2hWTQnSa3RTw"
+                href="https://drive.google.com/drive/folders/1srW8GPGMytJIc67muCNL2hWTQnSa3RTw"
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="btn-std">
-                  <span>Resume</span>
-                </button>
+                <button className="btn-std">Resume</button>
               </a>
             </li>
           </ul>

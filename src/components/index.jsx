@@ -5,26 +5,33 @@ import Service from './Services';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
-import { useContext } from 'react';
-import { containerContext } from '../App';
+import { useContext, useRef,  useEffect } from 'react';
+// import { containerContext } from '../App';
 
 const PortfolioWrapper = () => {
-  const { refVal } = useContext(containerContext);
+ // const { refVal } = useContext(containerContext);
+ const aboutSection = useRef();
+ const projectSection = useRef();
+ const serviceSection = useRef();
+
   const scrollDown = (a) => {
-    console.log(refVal);
+    // console.log(refVal);
     // window.scrollTo({
     //   top: refVal,
     //   behavior: 'smooth',
     // });
   };
+  useEffect(() => {
+    console.log("aboutSection......", aboutSection.current)
+  }, []);
   return (
     <div>
       <Header scrollFn={scrollDown} />
       <main>
         <Home />
-        <About />
-        <Projects />
-        <Service />
+        <About forwardRef={aboutSection} />
+        <Projects forwardRef={projectSection} />
+        <Service forwardRef={serviceSection} />
         <Contact />
         <Footer />
       </main>

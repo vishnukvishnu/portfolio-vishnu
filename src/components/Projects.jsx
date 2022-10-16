@@ -7,7 +7,18 @@ import philipsLogo from '../assets/images/logos/philips-logo.png';
 import pbLogo from '../assets/images/logos/pb-logo.png';
 import tcLogo from '../assets/images/logos/topcoder.png';
 
+// import { useEffect, useContext, useRef, useState } from 'react';
+// import { containerContext } from '../App';
+
+
 const Projects = () => {
+  // const projectSection = useRef();
+  // const { refVal, setRef } = useContext(containerContext);
+  // useEffect(() => {
+  //   setRef({ ...refVal, projects: projectSection.current.offsetTop });
+  //   console.log("projectSection.current.offsetTop,......",  projectSection.current.offsetTop)
+  // }, []);
+
   return (
     <div className="project-wrapper">
       <div className="project-header-wrapper">
@@ -102,7 +113,7 @@ const Projects = () => {
           >
             <button className="btn-std">
               <span>Show More</span>
-              <i class="fa fa-solid fa-arrow-right ms-3"></i>
+              <i className="fa fa-solid fa-arrow-right ms-3"></i>
             </button>
           </a>
         </a>

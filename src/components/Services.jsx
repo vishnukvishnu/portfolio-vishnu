@@ -1,17 +1,19 @@
-// import { useEffect, useContext, useRef } from 'react';
+// import { useEffect, useContext, useRef, useState } from 'react';
 // import { containerContext } from '../App';
 
 const Services = () => {
-  // const serviceSection = useRef(null);
+  // const serviceSection = useRef();
   // const { refVal, setRef } = useContext(containerContext);
   // useEffect(() => {
   //   setRef({ ...refVal, service: serviceSection.current.offsetTop });
+
+  //   console.log("serviceSection.current.offsetTop,......",  serviceSection.current.offsetTop)
   // }, []);
 
   return (
     <div className="service-wrapper">
       <div className="services-header-wrapper">
-        <h1 className="header-1">What I can do ?</h1>
+        <h1 className="header-1" >What I can do ?</h1>
         <p className="mb-0 roboto-medium">
           I can't be the most talented but I can work really hard :)
         </p>
@@ -46,8 +48,6 @@ const Services = () => {
                 </ul>
               </div>
               <div className="btn-wrapper">
-                {/* <button class="col-sm-6" onclick="window.location.href = 'tel:+918943260360';">Call Us</button>
-                    <button class="col-sm-6 ml-3" onclick="window.location.href = 'https://wa.me/+918943260360';">WhatsApp</button> */}
                 <a
                   href="https://api.whatsapp.com/send?phone=9645160131"
                   target="_blank"

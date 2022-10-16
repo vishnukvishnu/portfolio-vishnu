@@ -10,10 +10,6 @@ import { useContext, useRef,  useEffect } from 'react';
 
 const PortfolioWrapper = () => {
  // const { refVal } = useContext(containerContext);
- const aboutSection = useRef();
- const projectSection = useRef();
- const serviceSection = useRef();
-
   const scrollDown = (a) => {
     // console.log(refVal);
     // window.scrollTo({
@@ -22,16 +18,16 @@ const PortfolioWrapper = () => {
     // });
   };
   useEffect(() => {
-    console.log("aboutSection......", aboutSection.current)
+    console.log("aboutSection......")
   }, []);
   return (
     <div>
       <Header scrollFn={scrollDown} />
       <main>
         <Home />
-        <About forwardRef={aboutSection} />
-        <Projects forwardRef={projectSection} />
-        <Service forwardRef={serviceSection} />
+        <About />
+        <Projects />
+        <Service />
         <Contact />
         <Footer />
       </main>

@@ -1,12 +1,11 @@
-// import meOracle from '../assets/me-oracle.jpg';
 import oracleIcon from '../assets/images/logos/oracle-logo.png';
 import wiproIcon from '../assets/images/logos/wipro-logo.png';
 import topCodeIcon from '../assets/images/logos/topcoder.png';
 import bitsIcon from '../assets/images/logos/bits-logo.png';
 import profileImg from '../assets/profile-img.png';
 import profileIimgMb from '../assets/profile-img-mb.png';
-import { useEffect, useContext, useRef } from 'react';
-import { containerContext } from '../App';
+// import { useEffect, useContext, useRef } from 'react';
+// import { containerContext } from '../App';
 
 const About = () => {
   // const aboutSection = useRef();

@@ -5,7 +5,7 @@ import Service from './Services';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
-import { useContext, useRef,  useEffect } from 'react';
+// import { useContext, useRef,  useEffect } from 'react';
 // import { containerContext } from '../App';
 
 const PortfolioWrapper = () => {
@@ -17,9 +17,9 @@ const PortfolioWrapper = () => {
     //   behavior: 'smooth',
     // });
   };
-  useEffect(() => {
-    console.log("aboutSection......")
-  }, []);
+  // useEffect(() => {
+  //   console.log("aboutSection......")
+  // }, []);
   return (
     <div>
       <Header scrollFn={scrollDown} />

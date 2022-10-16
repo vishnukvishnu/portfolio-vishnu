@@ -27,7 +27,7 @@ const About = () => {
         <div className="col-12 col-md-4 left-wrapper">
           <div>
             <picture>
-                <source media="(max-width: 56.25em)" srcset={profileIimgMb} />
+                <source media="(max-width: 56.25em)" srcSet={profileIimgMb} />
                 <img src={profileImg} alt="Flowers"/>
             </picture>
           </div>

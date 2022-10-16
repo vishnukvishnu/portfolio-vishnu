@@ -207,6 +207,7 @@
 }
 .project-details-wrapper .cards{
     position: relative;
+    cursor: pointer;
 }
 .project-details-wrapper .cards .card-front{
     position: absolute;

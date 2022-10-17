@@ -5,21 +5,21 @@ import Service from './Services';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
-// import { useContext, useRef,  useEffect } from 'react';
-// import { containerContext } from '../App';
+import { useContext,  useEffect } from 'react';
+import { containerContext } from '../App';
 
 const PortfolioWrapper = () => {
- // const { refVal } = useContext(containerContext);
+  const { refVal } = useContext(containerContext);
   const scrollDown = (a) => {
-    // console.log(refVal);
-    // window.scrollTo({
-    //   top: refVal,
-    //   behavior: 'smooth',
-    // });
+    console.log(refVal);
+    window.scrollTo({
+      top: refVal,
+      behavior: 'smooth', 
+    });
   };
-  // useEffect(() => {
-  //   console.log("aboutSection......")
-  // }, []);
+  useEffect(() => {
+    console.log("aboutSection......",refVal)
+  }, []);
   return (
     <div>
       <Header scrollFn={scrollDown} />

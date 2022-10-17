@@ -1,17 +1,17 @@
-// import { useEffect, useContext, useRef, useState } from 'react';
-// import { containerContext } from '../App';
+import { useEffect, useContext, useRef } from 'react';
+import { containerContext } from '../App';
 
 const Services = () => {
-  // const serviceSection = useRef();
-  // const { refVal, setRef } = useContext(containerContext);
-  // useEffect(() => {
-  //   setRef({ ...refVal, service: serviceSection.current.offsetTop });
-
-  //   console.log("serviceSection.current.offsetTop,......",  serviceSection.current.offsetTop)
-  // }, []);
+  const serviceSection = useRef();
+  const {  setRef } = useContext(containerContext);
+  useEffect(() => {
+    // setRef({ ...refVal, service: serviceSection.current.offsetTop });
+    setRef({ service: "Services" });
+    // console.log("serviceSection.current.offsetTop,......",  serviceSection.current.offsetTop)
+  }, []);
 
   return (
-    <div className="service-wrapper">
+    <div className="service-wrapper" ref={serviceSection}>
       <div className="services-header-wrapper">
         <h1 className="header-1" >What I can do ?</h1>
         <p className="mb-0 roboto-medium">

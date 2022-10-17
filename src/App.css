@@ -517,7 +517,6 @@ padding: 1rem 0.2rem;
 .home-wrapper{
     position: relative;
     padding: 0;
-    height: 76vh;
 }
 .left-home-wrapper .wrapper{
     display: flex;

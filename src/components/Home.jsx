@@ -1,4 +1,4 @@
-import profileImg from '../assets/profile-transperant-half.png';
+// import profileImg from '../assets/profile-transperant-half.png';
 import lapIcon from '../assets/programming.png';
 // import { useEffect, useRef, useContext } from 'react';
 // import { containerContext } from '../App';
@@ -17,9 +17,10 @@ const Home = () => {
           <h4 className="header-2 header-mb-2 mb-4">
             WELCOME TO MY PORTFOLIO!
           </h4>
-          <h1 className="header-1 header-sm-mt-2 red-c">VISHNU K</h1>
+          <h1 className="header-1 header-sm-mt-2">VISHNU K</h1>
           <div className="programming-wrapper">
             <img src={lapIcon} alt="" />
+            {/* <i class="fa fa-laptop-code"></i> */}
             <h5 className="header-3">UI/UX Developer</h5>
           </div>
           <ul className="social-media-wrapper">
@@ -71,9 +72,9 @@ const Home = () => {
           </ul>
         </div>
       </div>
-      <div className="col-12 col-md-5 right-home-wrapper">
+      {/* <div className="col-12 col-md-5 right-home-wrapper">
         <img src={profileImg} alt="profile" />
-      </div>
+      </div> */}
     </div>
   );
 };

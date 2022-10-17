@@ -20,6 +20,7 @@
     display: flex;
     list-style: none;
     align-items: center;
+    padding: 0.6rem 1rem;
 }
 .header-wrapper .right-nav-wrapper .navigation-link{
     font-weight: bold;
@@ -28,8 +29,12 @@
     padding: 0.4rem 1.4rem;
     border-radius: 2px;
 }
-.header-wrapper .right-nav-wrapper .navigation-link:not(:last-child):hover{
-    background: #dd2c00;
+.header-wrapper .right-nav-wrapper .navigation-link:hover a{
+    color: #fff;
+}
+
+.header-wrapper .right-nav-wrapper .navigation-link:hover{
+    background: #000;
     color: #fff;
     transition: background .4s, color .4s;
 }
@@ -37,8 +42,9 @@
 
 /* styles for home */
 .home-wrapper{
-    padding: 8vh 200px 0 150px;
-    background-image: linear-gradient(#fff, #0606060d)
+    padding: 0 200px 0 150px;
+    background-image: linear-gradient(#fff, #0606060d);
+    height: 100vh;
 }
 .left-home-wrapper{
     display: flex;
@@ -55,7 +61,7 @@
 .left-home-wrapper .social-media-wrapper .fa{
     display: inline-block;
     padding: .3rem; 
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 .left-home-wrapper .social-media-wrapper a{
     color: #000;
@@ -66,7 +72,7 @@
 }
 
 .left-home-wrapper .social-media-wrapper li:hover .fa{
-    background: #dd2c00;
+    background: #000;
     border-radius: 6px;
     color: #fff;
     transition: background .4s, color .4s;
@@ -78,7 +84,7 @@
   display: flex;
   align-items: center;
   margin-top: 12px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   margin-left: 0.5rem;
 }
 .programming-wrapper img{
@@ -91,10 +97,10 @@
     margin-bottom: 0;
 }
 
-.right-home-wrapper img{
+/* .right-home-wrapper img{
     height: 92vh;
     width: auto;
-}
+} */
 /* 
 .right-home-wrapper .profile-image{
     background-image: url("./assets/profile2.jpg");
@@ -510,7 +516,8 @@ padding: 1rem 0.2rem;
 /* media queires for home  */
 .home-wrapper{
     position: relative;
-    padding: 8rem 0 0;
+    padding: 0;
+    height: 76vh;
 }
 .left-home-wrapper .wrapper{
     display: flex;

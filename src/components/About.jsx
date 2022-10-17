@@ -1,7 +1,7 @@
-import oracleIcon from '../assets/images/logos/oracle-logo.png';
-import wiproIcon from '../assets/images/logos/wipro-logo.png';
-import topCodeIcon from '../assets/images/logos/topcoder.png';
-import bitsIcon from '../assets/images/logos/bits-logo.png';
+// import oracleIcon from '../assets/images/logos/oracle-logo.png';
+// import wiproIcon from '../assets/images/logos/wipro-logo.png';
+// import topCodeIcon from '../assets/images/logos/topcoder.png';
+// import bitsIcon from '../assets/images/logos/bits-logo.png';
 import profileImg from '../assets/profile-img.png';
 import profileIimgMb from '../assets/profile-img-mb.png';
 import { useEffect, useContext, useRef } from 'react';
@@ -51,7 +51,7 @@ const About = () => {
             Strong engineering professional with an M-Tech focused in Computer
             Science from Bits Pilani.
           </p>
-          <div className="pt-4 pb-4 technology-wrapper">
+          <div className="pt-4 pb-4 mt-5 technology-wrapper">
             <h6 className="roboto-bold mb-3">
             Here are few samples of my topcoder challenge:
             </h6>
@@ -86,7 +86,7 @@ const About = () => {
               </li>
             </ul>
           </div>
-          <div className="row personal-info-wrapper">
+          {/* <div className="row personal-info-wrapper">
             <div className='col-5 col-md-6'>
               <div>
                 <span className="title">Name:</span>
@@ -159,7 +159,7 @@ const About = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

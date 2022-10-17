@@ -1,4 +1,4 @@
-import headerLogo from '../assets/images/logos/logo-header.png';
+// import headerLogo from '../assets/images/logos/logo-header.png';
 import { useContext } from 'react';
 import { containerContext } from '../App';
 
@@ -8,7 +8,7 @@ const Header = ({ scrollFn }) => {
     <div className="header-wrapper">
       <nav role="navigation" className="left-nav-wrapper display-mobile-hide">
         <div>
-          <img src={headerLogo} alt="" />
+          {/* <img src={headerLogo} alt="" /> */}
         </div>
         <ul className="right-nav-wrapper">
           <li className="navigation-link" onClick={() => scrollFn(refVal.home)}>
@@ -35,10 +35,8 @@ const Header = ({ scrollFn }) => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="btn-std">
-                <span>Resume</span>
-                <i className="fa fa-solid fa-arrow-right ms-3"></i>
-              </button>
+              <span>Resume</span>
+              <i className="fa fa-solid fa-arrow-right ms-2"></i>
             </a>
           </li>
         </ul>
@@ -46,7 +44,7 @@ const Header = ({ scrollFn }) => {
       <nav role="navigation" className="display-hide display-mobile-block">
         <div id="menuToggle">
           <div className="left-nav-mobile-wrapper display-block">
-            <img src={headerLogo} alt="" />
+            {/* <img src={headerLogo} alt="" /> */}
           </div>
           <input type="checkbox" />
           <span className="icon"></span>

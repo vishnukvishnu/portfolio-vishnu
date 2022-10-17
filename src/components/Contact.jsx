@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="row contact-details-wrapper">
         <div className="col-sm-4 scroll-wrapper">
           <div className="cards">
-            <i className="fa fa-home"></i>
+            <i className="fa fa-map-marker-alt"></i>
             <h5>Location</h5>
             <p>Kerala, India</p>
           </div>

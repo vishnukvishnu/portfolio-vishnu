@@ -4,19 +4,19 @@
 // import bitsIcon from '../assets/images/logos/bits-logo.png';
 import profileImg from '../assets/profile-img.png';
 import profileIimgMb from '../assets/profile-img-mb.png';
-import { useEffect, useContext, useRef } from 'react';
-import { containerContext } from '../App';
+// import { useEffect, useContext, useRef } from 'react';
+// import { containerContext } from '../App';
 
 const About = () => {
-  const aboutSection = useRef();
-  const { refVal, setRef } = useContext(containerContext);
-  useEffect(() => {
-    // setRef({ ...refVal, about: aboutSection.current.offsetTop });
-    setRef({ ...refVal, service: "About" });
-  }, []);
+  // const aboutSection = useRef();
+  // const { refVal, setRef } = useContext(containerContext);
+  // useEffect(() => {
+  //   // setRef({ ...refVal, about: aboutSection.current.offsetTop });
+  //   setRef({ ...refVal, service: "About" });
+  // }, []);
 
   return (
-    <div className="about-wrapper" ref={aboutSection}>
+    <div className="about-wrapper" >
       <div className="row m-0">
         <div className="col-12 col-md-4"></div>
         <div className="col-12 col-md-8 mb-3 about-header-wrapper">

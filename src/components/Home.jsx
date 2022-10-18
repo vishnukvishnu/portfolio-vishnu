@@ -14,9 +14,9 @@ const Home = () => {
     <div className="row m-0 home-wrapper">
       <div className="col-12 col-md-7 left-home-wrapper">
         <div className="wrapper">
-          {/* <h4 className="header-2 header-mb-2 mb-4">
+          <h4 className="header-2 header-mb-2 mb-4">
             WELCOME TO MY PORTFOLIO!
-          </h4> */}
+          </h4>
           <h1 className="header-1 header-sm-mt-2">VISHNU K</h1>
           <div className="programming-wrapper">
             <img src={lapIcon} alt="" />

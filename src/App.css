@@ -42,9 +42,8 @@
 
 /* styles for home */
 .home-wrapper{
-    padding: 0 200px 0 150px;
+    padding: 8vh 200px 0 150px;
     background-image: linear-gradient(#fff, #0606060d);
-    height: 100vh;
 }
 .left-home-wrapper{
     display: flex;
@@ -97,10 +96,10 @@
     margin-bottom: 0;
 }
 
-/* .right-home-wrapper img{
+.right-home-wrapper img{
     height: 92vh;
     width: auto;
-} */
+}
 /* 
 .right-home-wrapper .profile-image{
     background-image: url("./assets/profile2.jpg");
@@ -516,7 +515,7 @@ padding: 1rem 0.2rem;
 /* media queires for home  */
 .home-wrapper{
     position: relative;
-    padding: 0;
+    padding: 96px 0 0;
 }
 .left-home-wrapper .wrapper{
     display: flex;

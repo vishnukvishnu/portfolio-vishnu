@@ -1,4 +1,4 @@
-// import profileImg from '../assets/profile-transperant-half.png';
+import profileImg from '../assets/profile-transperant-half.png';
 import lapIcon from '../assets/programming.png';
 // import { useEffect, useRef, useContext } from 'react';
 // import { containerContext } from '../App';
@@ -72,9 +72,9 @@ const Home = () => {
           </ul>
         </div>
       </div>
-      {/* <div className="col-12 col-md-5 right-home-wrapper">
+      <div className="col-12 col-md-5 right-home-wrapper">
         <img src={profileImg} alt="profile" />
-      </div> */}
+      </div>
     </div>
   );
 };

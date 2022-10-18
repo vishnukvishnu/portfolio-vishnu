@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-vishnu/static/css/main.959a1577.css",
-    "main.js": "/portfolio-vishnu/static/js/main.97e634f0.js",
+    "main.js": "/portfolio-vishnu/static/js/main.6db74ee2.js",
     "static/js/787.c461a783.chunk.js": "/portfolio-vishnu/static/js/787.c461a783.chunk.js",
     "static/media/oracle.png": "/portfolio-vishnu/static/media/oracle.47a55843977074f968ca.png",
     "static/media/topcoder-banner.png": "/portfolio-vishnu/static/media/topcoder-banner.a32a82a7f7690069787a.png",
@@ -19,11 +19,11 @@
     "static/media/programming.png": "/portfolio-vishnu/static/media/programming.c29ef1f335e5f30001d8.png",
     "index.html": "/portfolio-vishnu/index.html",
     "main.959a1577.css.map": "/portfolio-vishnu/static/css/main.959a1577.css.map",
-    "main.97e634f0.js.map": "/portfolio-vishnu/static/js/main.97e634f0.js.map",
+    "main.6db74ee2.js.map": "/portfolio-vishnu/static/js/main.6db74ee2.js.map",
     "787.c461a783.chunk.js.map": "/portfolio-vishnu/static/js/787.c461a783.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.959a1577.css",
-    "static/js/main.97e634f0.js"
+    "static/js/main.6db74ee2.js"
   ]
 }

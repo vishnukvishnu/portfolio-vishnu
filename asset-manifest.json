@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-vishnu/static/css/main.959a1577.css",
-    "main.js": "/portfolio-vishnu/static/js/main.6db74ee2.js",
+    "main.css": "/portfolio-vishnu/static/css/main.49f4dd2e.css",
+    "main.js": "/portfolio-vishnu/static/js/main.97e634f0.js",
     "static/js/787.c461a783.chunk.js": "/portfolio-vishnu/static/js/787.c461a783.chunk.js",
     "static/media/oracle.png": "/portfolio-vishnu/static/media/oracle.47a55843977074f968ca.png",
     "static/media/topcoder-banner.png": "/portfolio-vishnu/static/media/topcoder-banner.a32a82a7f7690069787a.png",
@@ -18,12 +18,12 @@
     "static/media/pb-logo.png": "/portfolio-vishnu/static/media/pb-logo.e772c53db01a616d73bd.png",
     "static/media/programming.png": "/portfolio-vishnu/static/media/programming.c29ef1f335e5f30001d8.png",
     "index.html": "/portfolio-vishnu/index.html",
-    "main.959a1577.css.map": "/portfolio-vishnu/static/css/main.959a1577.css.map",
-    "main.6db74ee2.js.map": "/portfolio-vishnu/static/js/main.6db74ee2.js.map",
+    "main.49f4dd2e.css.map": "/portfolio-vishnu/static/css/main.49f4dd2e.css.map",
+    "main.97e634f0.js.map": "/portfolio-vishnu/static/js/main.97e634f0.js.map",
     "787.c461a783.chunk.js.map": "/portfolio-vishnu/static/js/787.c461a783.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.959a1577.css",
-    "static/js/main.6db74ee2.js"
+    "static/css/main.49f4dd2e.css",
+    "static/js/main.97e634f0.js"
   ]
 }

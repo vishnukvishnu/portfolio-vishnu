@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio-vishnu/static/css/main.8ed3c2a3.css",
-    "main.js": "/portfolio-vishnu/static/js/main.6ee81571.js",
-    "static/js/787.c461a783.chunk.js": "/portfolio-vishnu/static/js/787.c461a783.chunk.js",
-    "static/media/oracle.png": "/portfolio-vishnu/static/media/oracle.47a55843977074f968ca.png",
-    "static/media/topcoder-banner.png": "/portfolio-vishnu/static/media/topcoder-banner.a32a82a7f7690069787a.png",
-    "static/media/profile-transperant-half.png": "/portfolio-vishnu/static/media/profile-transperant-half.83fc44906399f461da63.png",
-    "static/media/profile-img.png": "/portfolio-vishnu/static/media/profile-img.4eadae8c81e9eeca61ce.png",
-    "static/media/pb-banner.png": "/portfolio-vishnu/static/media/pb-banner.3a9f8989498d2ba410b2.png",
-    "static/media/Roboto-Medium.ttf": "/portfolio-vishnu/static/media/Roboto-Medium.0fcd45fbfc419c42c8b9.ttf",
-    "static/media/Roboto-Regular.ttf": "/portfolio-vishnu/static/media/Roboto-Regular.6bede58e856278b0f8f1.ttf",
-    "static/media/Roboto-Bold.ttf": "/portfolio-vishnu/static/media/Roboto-Bold.17451a4c1cd55e33ac57.ttf",
-    "static/media/Sansita-Bold.otf": "/portfolio-vishnu/static/media/Sansita-Bold.69174bdef987b26cbe5f.otf",
-    "static/media/philips.jpg": "/portfolio-vishnu/static/media/philips.523a6818d68634248f21.jpg",
-    "static/media/philips-logo.png": "/portfolio-vishnu/static/media/philips-logo.ba57f6814efae5844206.png",
-    "static/media/profile-img-mb.png": "/portfolio-vishnu/static/media/profile-img-mb.2a959c599ca8e540d29a.png",
-    "static/media/pb-logo.png": "/portfolio-vishnu/static/media/pb-logo.e772c53db01a616d73bd.png",
-    "index.html": "/portfolio-vishnu/index.html",
-    "main.8ed3c2a3.css.map": "/portfolio-vishnu/static/css/main.8ed3c2a3.css.map",
-    "main.6ee81571.js.map": "/portfolio-vishnu/static/js/main.6ee81571.js.map",
-    "787.c461a783.chunk.js.map": "/portfolio-vishnu/static/js/787.c461a783.chunk.js.map"
+    "main.css": "/static/css/main.bdcb1e59.css",
+    "main.js": "/static/js/main.562dc3a5.js",
+    "static/js/787.c461a783.chunk.js": "/static/js/787.c461a783.chunk.js",
+    "static/media/oracle.png": "/static/media/oracle.47a55843977074f968ca.png",
+    "static/media/topcoder-banner.png": "/static/media/topcoder-banner.a32a82a7f7690069787a.png",
+    "static/media/profile-transperant-half.png": "/static/media/profile-transperant-half.83fc44906399f461da63.png",
+    "static/media/profile-img.png": "/static/media/profile-img.4eadae8c81e9eeca61ce.png",
+    "static/media/pb-banner.png": "/static/media/pb-banner.3a9f8989498d2ba410b2.png",
+    "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.0fcd45fbfc419c42c8b9.ttf",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.6bede58e856278b0f8f1.ttf",
+    "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.17451a4c1cd55e33ac57.ttf",
+    "static/media/Sansita-Bold.otf": "/static/media/Sansita-Bold.69174bdef987b26cbe5f.otf",
+    "static/media/philips.jpg": "/static/media/philips.523a6818d68634248f21.jpg",
+    "static/media/philips-logo.png": "/static/media/philips-logo.ba57f6814efae5844206.png",
+    "static/media/profile-img-mb.png": "/static/media/profile-img-mb.2a959c599ca8e540d29a.png",
+    "static/media/pb-logo.png": "/static/media/pb-logo.e772c53db01a616d73bd.png",
+    "index.html": "/index.html",
+    "main.bdcb1e59.css.map": "/static/css/main.bdcb1e59.css.map",
+    "main.562dc3a5.js.map": "/static/js/main.562dc3a5.js.map",
+    "787.c461a783.chunk.js.map": "/static/js/787.c461a783.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ed3c2a3.css",
-    "static/js/main.6ee81571.js"
+    "static/css/main.bdcb1e59.css",
+    "static/js/main.562dc3a5.js"
   ]
 }

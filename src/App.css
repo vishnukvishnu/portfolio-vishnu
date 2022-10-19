@@ -42,7 +42,7 @@
 
 /* styles for home */
 .home-wrapper{
-    padding: 8vh 200px 0 150px;
+    padding: 8vh 175px 0;
     background-image: linear-gradient(#fff, #0606060d);
 }
 .left-home-wrapper{

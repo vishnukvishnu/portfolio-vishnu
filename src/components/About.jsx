@@ -49,7 +49,7 @@ const About = () => {
               Bootstrap, and Adobe XD, Karma, Jasmine, React testing library.`}
             </strong>
             Strong engineering professional with an M-Tech focused in Computer
-            Science from Bits Pilani.
+            Science from <strong>Bits Pilani</strong>.
           </p>
           <div className="pt-4 pb-4 mt-5 technology-wrapper">
             <h6 className="roboto-bold mb-3">

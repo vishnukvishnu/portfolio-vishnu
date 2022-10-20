@@ -29,7 +29,7 @@ const About = () => {
           <div>
             <picture>
               <source media="(max-width: 56.25em)" srcSet={profileIimgMb} />
-              <img src={profileImg} alt="Flowers" />
+              <img src={profileImg} alt="frofile" />
             </picture>
           </div>
         </div>

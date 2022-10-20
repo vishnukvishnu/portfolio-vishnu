@@ -4,7 +4,7 @@ const ImageHoverCard = ({ frontImg, backImg, title, desc }) => {
       <div className="cards">
         <img className="card-front" src={frontImg} alt="" />
         <div className="card-back">
-          <img src={backImg} alt="" />
+          <img src={backImg} alt="project images" />
           <h3>{title}</h3>
           <p>{desc}</p>
         </div>

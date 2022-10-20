@@ -1,5 +1,5 @@
 import profileImg from '../assets/profile-transperant-half.png';
-// import lapIcon from '../assets/programming.png';
+import { useState } from 'react';
 // import { useEffect, useRef, useContext } from 'react';
 // import { containerContext } from '../App';
 
@@ -9,7 +9,16 @@ const Home = () => {
   // useEffect(() => {
   //   setRef({ ...refVal, home: homeSection.current.offsetTop });
   // }, []);
-
+  const [socialMedias] = useState([
+    { link: 'https://www.linkedin.com/in/vishnu--k', icon: 'linkedin' },
+    { link: 'https://github.com/vishnukvishnu', icon: 'github' },
+    { link: 'https://www.instagram.com/vishnuk__k', icon: 'instagram' },
+    {
+      link: 'https://api.whatsapp.com/send?phone=9645160131',
+      icon: 'whatsapp',
+    },
+    { link: 'https://twitter.com/vishnuk__k', icon: 'twitter' },
+  ]);
   return (
     <div className="row m-0 home-wrapper">
       <div className="col-12 col-md-7 left-home-wrapper">
@@ -24,56 +33,18 @@ const Home = () => {
             <h5 className="header-3">UI/UX Developer</h5>
           </div>
           <ul className="social-media-wrapper">
-            <li>
-              <a
-                href="https://www.linkedin.com/in/vishnu--k"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="linkedin link"
-              >
-                <i className="fa fa-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/vishnukvishnu"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="github link"
-              >
-                <i className="fa fa-github"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/vishnuk__k"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="instagram link"
-              >
-                <i className="fa fa-instagram"> </i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://api.whatsapp.com/send?phone=9645160131"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="whatsapp link"
-              >
-                <i className="fa fa-brands fa-square-whatsapp"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://twitter.com/vishnuk__k"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="twitter link"
-              >
-                <i className="fa fa-twitter"></i>
-              </a>
-            </li>
+            {socialMedias.map((media) => (
+              <li>
+                <a
+                  href={media.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="linkedin link"
+                >
+                  <i className={`fa fa-${media.icon}`}></i>
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

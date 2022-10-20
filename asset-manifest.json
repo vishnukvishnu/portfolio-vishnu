@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.b7f219e1.css",
-    "main.js": "/static/js/main.92911bee.js",
+    "main.css": "/static/css/main.4dde7fb7.css",
+    "main.js": "/static/js/main.47053a87.js",
     "static/js/787.c461a783.chunk.js": "/static/js/787.c461a783.chunk.js",
     "static/media/oracle.png": "/static/media/oracle.47a55843977074f968ca.png",
     "static/media/topcoder-banner.png": "/static/media/topcoder-banner.a32a82a7f7690069787a.png",
-    "static/media/profile-transperant-half.png": "/static/media/profile-transperant-half.83fc44906399f461da63.png",
+    "static/media/profile-home.png": "/static/media/profile-home.83fc44906399f461da63.png",
     "static/media/profile-img.png": "/static/media/profile-img.4eadae8c81e9eeca61ce.png",
     "static/media/pb-banner.png": "/static/media/pb-banner.3a9f8989498d2ba410b2.png",
     "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.0fcd45fbfc419c42c8b9.ttf",
@@ -16,12 +16,12 @@
     "static/media/profile-img-mb.png": "/static/media/profile-img-mb.2a959c599ca8e540d29a.png",
     "static/media/pb-logo.png": "/static/media/pb-logo.e772c53db01a616d73bd.png",
     "index.html": "/index.html",
-    "main.b7f219e1.css.map": "/static/css/main.b7f219e1.css.map",
-    "main.92911bee.js.map": "/static/js/main.92911bee.js.map",
+    "main.4dde7fb7.css.map": "/static/css/main.4dde7fb7.css.map",
+    "main.47053a87.js.map": "/static/js/main.47053a87.js.map",
     "787.c461a783.chunk.js.map": "/static/js/787.c461a783.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7f219e1.css",
-    "static/js/main.92911bee.js"
+    "static/css/main.4dde7fb7.css",
+    "static/js/main.47053a87.js"
   ]
 }

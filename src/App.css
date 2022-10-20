@@ -115,9 +115,7 @@
     padding-left: 100px;
     margin-top: 120px;
 }
-.about-header-wrapper{
-    display: inline-block;
-}
+
 .about-wrapper .left-wrapper{
     display: flex;
     align-items: center;
@@ -161,40 +159,6 @@
     color: #dd2c00;
     transition:color .4s;
 }
-.about-wrapper .personal-info-wrapper {
-    margin-top: 16px;
-}
-.about-wrapper .personal-info-wrapper .title{
-    display: inline-block;
-    font-size: .8rem;
-    font-weight: bold;
-    margin-right: 0.2rem;
-}
-.about-wrapper .personal-info-wrapper .info{
-    font-size: .9rem;
-}
-.about-wrapper .acadamic-wrapper ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 40px;
-}
-/* .about-wrapper .acadamic-wrapper .vertical-line span{
-    border: 1px solid #d4d4d4;
-    display: inline-block;
-    width: 5rem;
-    border-right: 0;
-    border-left: 0;
-} */
-
-.about-wrapper .acadamic-wrapper ul li{
-    margin-right: 40px;
-}
-.about-wrapper .acadamic-wrapper ul img{
-    width: 70px;
-    height: 70px;
-}
-
 
 
 /* styles for project section */
@@ -202,13 +166,6 @@
     padding: 0 175px;
     margin-top: 120px;
 }
-.project-header-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .project-details-wrapper{
     justify-content: center;
 }
@@ -272,12 +229,6 @@
 .service-wrapper{
     padding: 0 175px;
     margin-top: 120px;
-}
-.services-header-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .services-details-wrapper .slide-wrapper{
@@ -408,13 +359,6 @@
     padding: 0 175px;
     margin-top: 120px;
 }
-.contact-header-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .contact-details-wrapper{
     justify-content: center;
 }
@@ -432,7 +376,6 @@
 .contact-details-wrapper .cards p{
     font-size: 1rem;
 }
-
 
 
 /* styles for footer */
@@ -458,6 +401,14 @@
 .footer-wrapper .lang{
     color: #55c57a;
     font-weight: bold;
+}
+
+/* Styles for common components */
+.contact-header-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -561,9 +512,7 @@
 .about-wrapper{
     padding-left: 0;
 }
-.about-wrapper .about-header-wrapper {
-    text-align: center;
-}
+
 .about-wrapper .left-wrapper img{
     height: 160px;
     width: 160px;
@@ -581,10 +530,6 @@
 .about-wrapper .technology-wrapper ul {
     flex-direction: column;
 }
-.about-wrapper .acadamic-wrapper ul{
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 
 /* styles for service section */
@@ -593,9 +538,6 @@
 }
 .service-wrapper .services-details-wrapper{
     padding: 0 1.4rem;
-}
-.about-wrapper .acadamic-wrapper ul li {
-    margin: 20px;
 }
 
 /* styles for project section */

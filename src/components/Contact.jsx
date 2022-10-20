@@ -3,7 +3,7 @@ import Card from './common/Card'
 
 const Contact = () => {
   return (
-    <div className="contact-wrapper">
+    <div className="contact-wrapper header-align">
       <Title title="Get in touch" subTitle="Let's build something togther :)" />
       <div className="row contact-details-wrapper">
         <Card  title="Location" subTitle="Kerala, India" icon="fa-map-marker-alt"/>

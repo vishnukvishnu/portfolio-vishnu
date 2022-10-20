@@ -7,11 +7,11 @@ const Header = ({ scrollFn }) => {
   const { refVal } = useContext(containerContext);
   return (
     <div className="header-wrapper">
-      <nav role="navigation" className="left-nav-wrapper display-mobile-hide">
+      <nav role="navigation" className="left-nav-wrapper flex-vtkl-center display-mobile-hide">
         <div>
           <img src={logo} alt="logo" />
         </div>
-        <ul className="right-nav-wrapper">
+        <ul className="right-nav-wrapper flex-vtkl-center">
           <li className="navigation-link" onClick={() => scrollFn(refVal.home)}>
             HOME
           </li>
@@ -52,7 +52,7 @@ const Header = ({ scrollFn }) => {
           <span className="icon"></span>
           <span className="icon"></span>
 
-          <ul id="menu" className="right-nav-wrapper">
+          <ul id="menu" className="right-nav-wrapper flex-vtkl-center">
             <li
               className="navigation-link"
               onClick={() => scrollFn(refVal.home)}

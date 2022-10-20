@@ -8,8 +8,6 @@
     z-index: 9; 
 }
 .left-nav-wrapper{
-    display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 .left-nav-wrapper img{
@@ -18,9 +16,7 @@
 }
 .header-wrapper .right-nav-wrapper{
     margin:0;
-    display: flex;
     list-style: none;
-    align-items: center;
     padding: 0.6rem 1rem;
 }
 .header-wrapper .right-nav-wrapper .navigation-link{
@@ -52,10 +48,7 @@
     flex-direction: column;
     justify-content: center;
 }
-.right-home-wrapper{
-    display: flex;
-    justify-content: center;
-}
+
 .left-home-wrapper .social-media-wrapper{
     display: flex;
 }
@@ -82,16 +75,10 @@
     color: #000;
 }
 .left-home-wrapper .programming-wrapper {
-  display: flex;
-  align-items: center;
   margin-top: 12px;
   margin-bottom: 1rem;
 }
-/* .programming-wrapper img{
-    display: inline-block;
-    height: 25px;
-    width: 25px;
-} */
+
 .programming-wrapper .fa{
     font-size: 1.4rem;
 }
@@ -120,11 +107,6 @@
     margin-top: 120px;
 }
 
-.about-wrapper .left-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .about-wrapper .right-wrapper{
     padding-right: 200px;
 }
@@ -152,8 +134,6 @@
     color:#dd2c00;
 }
 .about-wrapper .technology-wrapper ul li{
-    display: flex;
-    align-items: center;
     margin-bottom: 0.2rem;
 }
 .about-wrapper .technology-wrapper ul li a{
@@ -166,10 +146,6 @@
 
 
 /* styles for project section */
-.project-wrapper{
-    padding: 0 175px;
-    margin-top: 120px;
-}
 .project-details-wrapper{
     justify-content: center;
 }
@@ -199,10 +175,6 @@
     opacity: 1;
 }
 .project-details-wrapper .cards .card-back{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 0 40px 20px;
     visibility: hidden;
     opacity: 0;
@@ -222,22 +194,11 @@
     font-size: .9rem;
     text-align: center;
 }
-.project-wrapper .show-more-wrapper{
-    display: flex;
-    justify-content: center;
-}
 
 
 
 /* styles for service section */
-.service-wrapper{
-    padding: 0 175px;
-    margin-top: 120px;
-}
-
 .services-details-wrapper .slide-wrapper{
-    display: flex;
-    justify-content: center;
     position: relative;
     height: 16rem;
     margin-top: 20px;
@@ -265,9 +226,6 @@
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer; 
     transform: translateX(-3rem) skewX(12deg);
     background: #000;
@@ -293,26 +251,19 @@
     font-size: 1rem;
 }
 .services-details-wrapper .slide .btn-wrapper{
-    display: flex;
     justify-content: flex-start;
-    align-items: center;
     width: 100%;
     margin-top: 1rem;
 }
-.services-details-wrapper .slide .btn-wrapper a{
-    color:#dd2c00;
-     /* transition: color .5s; */
-}
-.services-details-wrapper .slide .btn-wrapper a:hover{
-    /* color:#fff; */
-    /* transition: color .5s; */
-}
+
+
 .services-details-wrapper .slide .dev-info h4{
     font-size: .9rem;
     font-weight: bold;
 }
 
 .services-details-wrapper .slide .dev-info li{
+    align-items: center;
     display: flex;
     align-items: center;
     font-size: .8rem;
@@ -359,10 +310,6 @@
 
 
 /* styles for contact section */
-.contact-wrapper{
-    padding: 0 175px;
-    margin-top: 120px;
-}
 .contact-details-wrapper{
     justify-content: center;
 }
@@ -384,9 +331,6 @@
 
 /* styles for footer */
 .footer-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     padding: 10px 0;
     margin: 100px 0 20px; 
@@ -405,14 +349,6 @@
 .footer-wrapper .lang{
     color: #55c57a;
     font-weight: bold;
-}
-
-/* Styles for common components */
-.contact-header-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -452,10 +388,7 @@
     width:100%;
 }
 .header-wrapper .right-nav-wrapper .navigation-link button{
-    display: flex;
-    align-items: center;
     width: 100%;
-    justify-content: center;
     padding: 0.8rem 8rem;
     margin-top: 1rem;
 }
@@ -486,14 +419,7 @@
     position: relative;
     padding: 96px 0 0;
 }
-.left-home-wrapper .wrapper{
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-}
-/* .left-home-wrapper .wrapper h4{
-    text-align: center;
-} */
+
 .left-home-wrapper .header-sm-mt-2{
     margin-top: 1rem;
 }

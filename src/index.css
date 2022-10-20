@@ -163,6 +163,24 @@ li {
   box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 15%);
   border-radius: .4rem;
 }
+.flex-hztl-center{
+  display: flex;
+  justify-content: center;
+}
+.flex-vtkl-center{
+  display: flex;
+  align-items: center;
+}
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header-align{
+  padding: 0 175px;
+  margin-top: 120px;
+}
 
 /* commone meeadia queries */
 @media (min-width: 1400px){

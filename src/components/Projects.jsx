@@ -21,7 +21,7 @@ const Projects = () => {
   // }, []);
 
   return (
-    <div className="project-wrapper">
+    <div className="project-wrapper header-align">
       <Title
         title="Projects"
         subTitle=" Here are few samples of my previous work :)"
@@ -56,7 +56,7 @@ const Projects = () => {
                 emerging technologies."
         />
       </div>
-      <div className="show-more-wrapper mt-5">
+      <div className="show-more-wrapper flex-hztl-center mt-5">
         <a
           href="https://github.com/vishnukvishnu"
           target="_blank"

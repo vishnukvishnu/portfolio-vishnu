@@ -13,7 +13,7 @@ const Services = () => {
   // }, []);
 
   return (
-    <div className="service-wrapper">
+    <div className="service-wrapper header-align">
       <Title
         title="What I can do ?"
         subTitle="I can't be the most talented but I can work really hard :)"

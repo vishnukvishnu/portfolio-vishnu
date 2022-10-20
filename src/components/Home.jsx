@@ -27,7 +27,7 @@ const Home = () => {
             Welcome to my portfolio!
           </h4>
           <h1 className="header-1 header-mb-1 header-sm-mt-2">VISHNU K</h1>
-          <div className="programming-wrapper">
+          <div className="programming-wrapper flex-vtkl-center">
             {/* <img src={lapIcon} alt="" /> */}
             <i className="fa fa-code"></i>
             <h5 className="header-3">UI/UX Developer</h5>
@@ -48,7 +48,7 @@ const Home = () => {
           </ul>
         </div>
       </div>
-      <div className="col-12 col-md-5 right-home-wrapper">
+      <div className="col-12 col-md-5 right-home-wrapper flex-hztl-center">
         {/* <div className='profile-image'></div> */}
         <img src={profileImg} alt="profile" />
       </div>

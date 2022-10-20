@@ -25,7 +25,7 @@ const About = () => {
         <Title title="About Me" subTitle="Get to know me :)" />
       </div>
       <div className="row m-0">
-        <div className="col-12 col-md-4 left-wrapper">
+        <div className="col-12 col-md-4 left-wrapper flex-center">
           <div>
             <picture>
               <source media="(max-width: 56.25em)" srcSet={profileIimgMb} />
@@ -57,7 +57,7 @@ const About = () => {
             </h6>
             <ul className="row">
               {challenges.map((challenge) => 
-                (<li className="col-12 col-md-6" key={challenge}>
+                (<li className="col-12 col-md-6 flex-vtkl-center" key={challenge}>
                   <i className="fa fa-play"></i>
                   <a href={challenge} target="_blank" rel="noreferrer">
                     {challenge}

@@ -29,6 +29,7 @@
     cursor: pointer;
     padding: 0.4rem 1.4rem;
     border-radius: 2px;
+    text-transform: uppercase;
 }
 .header-wrapper .right-nav-wrapper .navigation-link:hover a{
     color: #fff;
@@ -103,11 +104,13 @@
     height: 92vh;
     width: auto;
 }
-/* 
-.right-home-wrapper .profile-image{
-    background-image: url("./assets/profile2.jpg");
-    background-repeat: repeat;
 
+/* .right-home-wrapper .profile-image{
+    background-image: url("./assets/profile-background.png");
+    background-repeat: no-repeat;
+    height: 92vh;
+    width: 100%;
+    z-index: 1111111;
 } */
 
 

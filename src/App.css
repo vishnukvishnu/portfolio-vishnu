@@ -13,7 +13,8 @@
     justify-content: space-between;
 }
 .left-nav-wrapper img{
-    width: 5rem;
+    width: 4rem;
+    margin-left: 1.4rem;
 }
 .header-wrapper .right-nav-wrapper{
     margin:0;
@@ -437,7 +438,7 @@
 }
 .header-wrapper .left-nav-mobile-wrapper img{
     position: absolute;
-    right: 94px;
+    right:80px;
     top: -4px;
     z-index: 1111;
     width: 4rem;

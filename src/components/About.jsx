@@ -57,7 +57,7 @@ const About = () => {
             </h6>
             <ul className="row">
               {challenges.map((challenge) => 
-                (<li className="col-12 col-md-6">
+                (<li className="col-12 col-md-6" key={challenge}>
                   <i className="fa fa-play"></i>
                   <a href={challenge} target="_blank" rel="noreferrer">
                     {challenge}

@@ -17,7 +17,7 @@ const ParallelSlideCard = ({ frontTitle, backTitle, icon, tasks }) => {
             <h4>{backTitle}</h4>
             <ul>
               {tasks.map((task) => (
-                <li>
+                <li key={task}>
                   <i className="fa fa-play" aria-hidden="true"></i>
                   {task}
                 </li>

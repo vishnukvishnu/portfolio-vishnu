@@ -29,12 +29,12 @@ const Home = () => {
           <h1 className="header-1 header-mb-1 header-sm-mt-2">VISHNU K</h1>
           <div className="programming-wrapper">
             {/* <img src={lapIcon} alt="" /> */}
-            <i class="fa fa-code"></i>
+            <i className="fa fa-code"></i>
             <h5 className="header-3">UI/UX Developer</h5>
           </div>
           <ul className="social-media-wrapper">
             {socialMedias.map((media) => (
-              <li>
+              <li key={media.icon}>
                 <a
                   href={media.link}
                   target="_blank"

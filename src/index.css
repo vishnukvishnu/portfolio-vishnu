@@ -48,10 +48,6 @@ ORDER: Base + typography > general layout + grid > page layout > components
 
 
 
-@font-face {
-  font-family: "Roboto-Regular";
-  src: url("./assets//fonts/Roboto-Regular.ttf");
-}
 
 @font-face {
   font-family: "Roboto-Medium";
@@ -72,7 +68,6 @@ ORDER: Base + typography > general layout + grid > page layout > components
 body {
   margin: 0;
   padding: 0;
-  /* font-family: "Roboto-Regular"; */
 }
 
 ul,

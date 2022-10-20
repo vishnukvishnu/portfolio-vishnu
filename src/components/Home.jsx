@@ -29,6 +29,7 @@ const Home = () => {
                 href="https://www.linkedin.com/in/vishnu--k"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="linkedin link"
               >
                 <i className="fa fa-linkedin"></i>
               </a>
@@ -38,6 +39,7 @@ const Home = () => {
                 href="https://github.com/vishnukvishnu"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="github link"
               >
                 <i className="fa fa-github"></i>
               </a>
@@ -47,6 +49,7 @@ const Home = () => {
                 href="https://www.instagram.com/vishnuk__k"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="instagram link"
               >
                 <i className="fa fa-instagram"> </i>
               </a>
@@ -56,6 +59,7 @@ const Home = () => {
                 href="https://api.whatsapp.com/send?phone=9645160131"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="whatsapp link"
               >
                 <i className="fa fa-brands fa-square-whatsapp"></i>
               </a>
@@ -65,6 +69,7 @@ const Home = () => {
                 href="https://twitter.com/vishnuk__k"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="twitter link"
               >
                 <i className="fa fa-twitter"></i>
               </a>

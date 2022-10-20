@@ -310,13 +310,12 @@
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    /* background: #febf09; */
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer; 
     transform: translateX(-3rem) skewX(12deg);
-      background: #000;
+    background: #000;
 }
 
 .services-details-wrapper .slide .content-wrappwer{
@@ -329,11 +328,10 @@
     font-weight: bold;
     font-family: "Sansita-Bold";
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
 }
 .services-details-wrapper .slide .fa{
     font-size: 2rem;
-    /* color: #000; */
     color: #fff;
 }
 .services-details-wrapper .slide .dev-info{

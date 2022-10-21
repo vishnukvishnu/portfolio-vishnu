@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dbf2b6c6.css",
-    "main.js": "/static/js/main.12de0c32.js",
+    "main.js": "/static/js/main.0f87f198.js",
     "static/js/787.c461a783.chunk.js": "/static/js/787.c461a783.chunk.js",
     "static/media/oracle.png": "/static/media/oracle.47a55843977074f968ca.png",
     "static/media/topcoder-banner.png": "/static/media/topcoder-banner.a32a82a7f7690069787a.png",
@@ -17,11 +17,11 @@
     "static/media/pb-logo.png": "/static/media/pb-logo.e772c53db01a616d73bd.png",
     "index.html": "/index.html",
     "main.dbf2b6c6.css.map": "/static/css/main.dbf2b6c6.css.map",
-    "main.12de0c32.js.map": "/static/js/main.12de0c32.js.map",
+    "main.0f87f198.js.map": "/static/js/main.0f87f198.js.map",
     "787.c461a783.chunk.js.map": "/static/js/787.c461a783.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dbf2b6c6.css",
-    "static/js/main.12de0c32.js"
+    "static/js/main.0f87f198.js"
   ]
 }

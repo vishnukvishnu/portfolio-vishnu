@@ -28,24 +28,28 @@ const Services = () => {
           frontTitle="Web developement (React,Angular,JS)"
           backTitle="Web Development"
           icon="fa-solid fa-code"
+          slidBg="slide-bg-0"
           tasks={['Reactjs', 'Angular', 'Jaavascript,HTML,SCSS and more..!']}
         />
         <ParallelSlideCard
           frontTitle="Mobile App Development"
           backTitle="Mobile App"
           icon="fa-mobile fa-icons"
+          slidBg="slide-bg-1"
           tasks={['Ionic', 'Android', 'IOS']}
         />
         <ParallelSlideCard
           frontTitle="Technical Blog Writing"
           backTitle="Technical Blog"
           icon="fa-pencil-square"
+          slidBg="slide-bg-2"
           tasks={['User Interface', 'API Integrations', 'Medium blogs']}
         />
         <ParallelSlideCard
           frontTitle="Topcoder Challenges"
           backTitle="Top Coder"
           icon="fa-solid fa-laptop-code"
+          slidBg="slide-bg-3"
           tasks={['Development Challenges', 'First2Finish']}
         />
       </div>

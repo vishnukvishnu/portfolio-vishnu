@@ -1,4 +1,4 @@
-const ParallelSlideCard = ({ frontTitle, backTitle, icon, tasks }) => {
+const ParallelSlideCard = ({ frontTitle, backTitle, icon, slidBg, tasks }) => {
   return (
     <div className="col-sm-6">
       <div className="slide-wrapper flex-hztl-center">
@@ -13,11 +13,12 @@ const ParallelSlideCard = ({ frontTitle, backTitle, icon, tasks }) => {
           </div>
         </div>
         <div className="slide card-back">
+          <div className={`slide-bg ${slidBg}`}></div>
           <div className="dev-info">
             <h4>{backTitle}</h4>
             <ul>
               {tasks.map((task) => (
-                <li key={task} >
+                <li key={task}>
                   <i className="fa fa-play" aria-hidden="true"></i>
                   {task}
                 </li>

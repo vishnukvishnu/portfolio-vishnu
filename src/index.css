@@ -189,3 +189,26 @@ li {
     width: 33.33333333%;
 }
 }
+
+.slide-bg{
+  background-repeat: no-repeat;
+  height: 210px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  background-size: 100% 210px;
+}
+.slide-bg-0{
+   background-image:linear-gradient(#fff, #0606060d), url("./assets/images/services/techbu.jpg");
+}
+.slide-bg-1{
+  background-image:linear-gradient(#fff, #0606060d), url("./assets/images/services/explodo.jpg");
+}
+.slide-bg-2{
+  background-image:linear-gradient(#fff, #0606060d), url("./assets/images/services/pbclient.jpg");
+}
+.slide-bg-3{
+  background-image:linear-gradient(#fff, #0606060d), url("./assets/images/services/5year.jpg");
+}

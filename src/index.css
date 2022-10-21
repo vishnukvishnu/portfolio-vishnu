@@ -201,14 +201,14 @@ li {
   background-size: 100% 210px;
 }
 .slide-bg-0{
-   background-image:linear-gradient(#fff, #0606060d), url("./assets/images/services/techbu.jpg");
+   background-image:linear-gradient(to right bottom, #fff, #0000001f), url("./assets/images/services/techbu.jpg");
 }
 .slide-bg-1{
-  background-image:linear-gradient(#fff, #0606060d), url("./assets/images/services/explodo.jpg");
+  background-image:linear-gradient(to right bottom, #fff, #0000001f), url("./assets/images/services/explodo.jpg");
 }
 .slide-bg-2{
-  background-image:linear-gradient(#fff, #0606060d), url("./assets/images/services/pbclient.jpg");
+  background-image:linear-gradient(to right bottom, #fff, #0000001f), url("./assets/images/services/pbclient.jpg");
 }
 .slide-bg-3{
-  background-image:linear-gradient(#fff, #0606060d), url("./assets/images/services/5year.jpg");
+  background-image:linear-gradient(to right bottom, #fff, #0000001f), url("./assets/images/services/5year.jpg");
 }

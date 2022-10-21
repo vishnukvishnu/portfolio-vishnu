@@ -14,7 +14,11 @@ const Services = () => {
     setRef(test, 'service');
   }, [test]);
   return (
-    <div className="service-wrapper header-align" ref={serviceSection}>
+    <div
+      className="service-wrapper header-align"
+      ref={serviceSection}
+      id="service"
+    >
       <Title
         title="What I can do ?"
         subTitle="I can't be the most talented but I can work really hard :)"

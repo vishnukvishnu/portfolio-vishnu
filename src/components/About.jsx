@@ -23,7 +23,7 @@ const About = () => {
     'https://holmes-e-kyc-ui.netlify.app',
   ]);
   return (
-    <div className="about-wrapper" ref={aboutSection}>
+    <div className="about-wrapper" ref={aboutSection} id="about">
       <div className="row m-0">
         <div className="col-12 col-md-4"></div>
         <Title title="About Me" subTitle="Get to know me :)" />

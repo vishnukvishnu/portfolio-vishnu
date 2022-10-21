@@ -16,19 +16,19 @@ const Header = ({ scrollFn }) => {
         </div>
         <ul className="right-nav-wrapper flex-vtkl-center">
           <li className="navigation-link" onClick={() => scrollFn('home')}>
-            HOME
+            <a href="#home">HOME</a>
           </li>
           <li className="navigation-link" onClick={() => scrollFn('about')}>
-            ABOUT
+            <a href="#about">ABOUT</a>
           </li>
           <li className="navigation-link" onClick={() => scrollFn('projects')}>
-            PROJECTS
+            <a href="#projects">PROJECTS</a>
           </li>
           <li className="navigation-link" onClick={() => scrollFn('service')}>
-            SERVICES
+            <a href="#service">SERVICES</a>
           </li>
           <li className="navigation-link" onClick={scrollFn}>
-            CONTACT
+            <a href="#contact">CONTACT</a>
           </li>
           <li className="navigation-link width-100">
             <a

@@ -24,7 +24,7 @@ const Home = () => {
     { link: 'https://twitter.com/vishnuk__k', icon: 'twitter' },
   ]);
   return (
-    <div className="row m-0 home-wrapper" ref={homeSection}>
+    <div className="row m-0 home-wrapper" ref={homeSection} id="home">
       <div className="col-12 col-md-7 left-home-wrapper">
         <div className="wrapper">
           <h4 className="header-2 header-mb-2 header-mb-2 mb-4">

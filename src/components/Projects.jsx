@@ -14,7 +14,7 @@ import { containerContext } from '../App';
 
 const Projects = () => {
   const projectSection = useRef();
-  const {  setRef } = useContext(containerContext);
+  const { setRef } = useContext(containerContext);
   const [test, setTest] = useState(null);
   useEffect(() => {
     setTest(projectSection.current.offsetTop);
@@ -24,7 +24,11 @@ const Projects = () => {
   }, [test]);
 
   return (
-    <div className="project-wrapper header-align" ref={projectSection}>
+    <div
+      className="project-wrapper header-align"
+      ref={projectSection}
+      id="projects"
+    >
       <Title
         title="Projects"
         subTitle=" Here are few samples of my previous work :)"

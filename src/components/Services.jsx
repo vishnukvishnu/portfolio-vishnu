@@ -1,19 +1,20 @@
-// import { useEffect, useContext, useRef } from 'react';
-// import { containerContext } from '../App';
+import { useEffect, useContext, useRef, useState } from 'react';
+import { containerContext } from '../App';
 import Title from './common/Title';
 import ParallelSlideCard from './common/ParallelSlideCard';
 
 const Services = () => {
-  // const serviceSection = useRef();
-  // const {  setRef } = useContext(containerContext);
-  // useEffect(() => {
-  //   // setRef({ ...refVal, service: serviceSection.current.offsetTop });
-  //   setRef({ service: "Services" });
-  //   // console.log("serviceSection.current.offsetTop,......",  serviceSection.current.offsetTop)
-  // }, []);
-
+  const serviceSection = useRef();
+  const { setRef } = useContext(containerContext);
+  const [test, setTest] = useState(null);
+  useEffect(() => {
+    setTest(serviceSection.current.offsetTop);
+  }, []);
+  useEffect(() => {
+    setRef(test, 'service');
+  }, [test]);
   return (
-    <div className="service-wrapper header-align">
+    <div className="service-wrapper header-align" ref={serviceSection}>
       <Title
         title="What I can do ?"
         subTitle="I can't be the most talented but I can work really hard :)"

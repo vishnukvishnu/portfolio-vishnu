@@ -4,27 +4,27 @@ import { useContext } from 'react';
 import { containerContext } from '../App';
 
 const Header = ({ scrollFn }) => {
-  const { refVal } = useContext(containerContext);
+  // const { refVal } = useContext(containerContext);
   return (
     <div className="header-wrapper">
-      <nav role="navigation" className="left-nav-wrapper flex-vtkl-center display-mobile-hide">
+      <nav
+        role="navigation"
+        className="left-nav-wrapper flex-vtkl-center display-mobile-hide"
+      >
         <div>
           <img src={logo} alt="logo" />
         </div>
         <ul className="right-nav-wrapper flex-vtkl-center">
-          <li className="navigation-link" onClick={() => scrollFn(refVal.home)}>
+          <li className="navigation-link" onClick={() => scrollFn('home')}>
             HOME
           </li>
-          <li
-            className="navigation-link"
-            onClick={() => scrollFn(refVal.about)}
-          >
+          <li className="navigation-link" onClick={() => scrollFn('about')}>
             ABOUT
           </li>
-          <li className="navigation-link" onClick={scrollFn}>
+          <li className="navigation-link" onClick={() => scrollFn('projects')}>
             PROJECTS
           </li>
-          <li className="navigation-link" onClick={scrollFn}>
+          <li className="navigation-link" onClick={() => scrollFn('service')}>
             SERVICES
           </li>
           <li className="navigation-link" onClick={scrollFn}>
@@ -53,16 +53,10 @@ const Header = ({ scrollFn }) => {
           <span className="icon"></span>
 
           <ul id="menu" className="right-nav-wrapper flex-vtkl-center">
-            <li
-              className="navigation-link"
-              onClick={() => scrollFn(refVal.home)}
-            >
+            <li className="navigation-link" onClick={scrollFn}>
               <i className="fa fa-home-alt"></i>HOME
             </li>
-            <li
-              className="navigation-link"
-              onClick={() => scrollFn(refVal.about)}
-            >
+            <li className="navigation-link" onClick={scrollFn}>
               <i className="fa fa-user"></i>ABOUT
             </li>
             <li className="navigation-link" onClick={scrollFn}>

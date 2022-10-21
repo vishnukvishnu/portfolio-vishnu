@@ -1,17 +1,21 @@
 import profileImg from '../assets/profile-img.png';
 import profileIimgMb from '../assets/profile-img-mb.png';
 import { useState } from 'react';
-// import { useEffect, useContext, useRef } from 'react';
-// import { containerContext } from '../App';
+import { useEffect, useContext, useRef } from 'react';
+import { containerContext } from '../App';
 import Title from './common/Title';
 
 const About = () => {
-  // const aboutSection = useRef();
-  // const { refVal, setRef } = useContext(containerContext);
-  // useEffect(() => {
-  //   // setRef({ ...refVal, about: aboutSection.current.offsetTop });
-  //   setRef({ ...refVal, service: "About" });
-  // }, []);
+  const aboutSection = useRef();
+  const { setRef } = useContext(containerContext);
+  const [test, setTest] = useState(null);
+  useEffect(() => {
+    setTest(aboutSection.current.offsetTop);
+  }, []);
+  useEffect(() => {
+    setRef(test, 'about');
+  }, [test]);
+
   const [challenges] = useState([
     'https://lssa.netlify.app',
     'https://embarkk.netlify.app',
@@ -19,7 +23,7 @@ const About = () => {
     'https://holmes-e-kyc-ui.netlify.app',
   ]);
   return (
-    <div className="about-wrapper">
+    <div className="about-wrapper" ref={aboutSection}>
       <div className="row m-0">
         <div className="col-12 col-md-4"></div>
         <Title title="About Me" subTitle="Get to know me :)" />
@@ -56,14 +60,17 @@ const About = () => {
               Here are few samples of my topcoder challenge:
             </h6>
             <ul className="row">
-              {challenges.map((challenge) => 
-                (<li className="col-12 col-md-6 flex-vtkl-center" key={challenge}>
+              {challenges.map((challenge) => (
+                <li
+                  className="col-12 col-md-6 flex-vtkl-center"
+                  key={challenge}
+                >
                   <i className="fa fa-play"></i>
                   <a href={challenge} target="_blank" rel="noreferrer">
                     {challenge}
                   </a>
-                </li>)
-              )}
+                </li>
+              ))}
             </ul>
           </div>
         </div>

@@ -10,16 +10,13 @@ import { containerContext } from '../App';
 
 const PortfolioWrapper = () => {
   const { refVal } = useContext(containerContext);
-  const scrollDown = () => {
-    console.log(refVal);
+  const scrollDown = (section) => {
+    console.log(section, '............', refVal[section]);
     window.scrollTo({
-      top: refVal,
-      behavior: 'smooth', 
+      top: refVal[section],
+      behavior: 'smooth',
     });
   };
-  // useEffect(() => {
-  //   console.log("aboutSection......",refVal)
-  // }, []);
   return (
     <div>
       <Header scrollFn={scrollDown} />

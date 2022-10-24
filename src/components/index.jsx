@@ -13,7 +13,7 @@ const PortfolioWrapper = () => {
   const scrollDown = (section) => {
     console.log(section, '............', refVal[section]);
     window.scrollTo({
-      top: refVal[section],
+      top: refVal[section] - 150,
       behavior: 'smooth',
     });
   };

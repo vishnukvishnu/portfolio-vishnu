@@ -1,7 +1,7 @@
 // import headerLogo from '../assets/images/logos/logo-header.png';
 import logo from '../assets/logo.png';
-import { useContext } from 'react';
-import { containerContext } from '../App';
+// import { useContext } from 'react';
+// import { containerContext } from '../App';
 
 const Header = ({ scrollFn }) => {
   // const { refVal } = useContext(containerContext);
@@ -25,7 +25,7 @@ const Header = ({ scrollFn }) => {
             <a href="#projects">PROJECTS</a>
           </li>
           <li className="navigation-link" onClick={() => scrollFn('service')}>
-            <a href="#service">SERVICES</a>
+            SERVICES
           </li>
           <li className="navigation-link" onClick={scrollFn}>
             <a href="#contact">CONTACT</a>

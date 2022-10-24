@@ -190,30 +190,11 @@ li {
 }
 }
 
-/* .slide-bg{
-  background-repeat: no-repeat;
+.slide-bg{
   height: 210px;
-  width: 110%;
-  display: block;
-  position: absolute;
-  top: 0px;
-  left: 26px;
-  background-size: 100% 210px;
-  transform: translateX(-3rem) skewX(12deg);
+  width: 100%;
 }
-.slide-bg-0{
-   background-image:linear-gradient(to right bottom, #fff, #0000001f), url("./assets/images/services/techbu.jpg");
-}
-.slide-bg-1{
-  background-image:linear-gradient(to right bottom, #fff, #0000001f), url("./assets/images/services/explodo.jpg");
-}
-.slide-bg-2{
-  background-image:linear-gradient(to right bottom, #fff, #0000001f), url("./assets/images/services/pbclient.jpg");
-}
-.slide-bg-3{
-  background-image:linear-gradient(to right bottom, #fff, #0000001f), url("./assets/images/services/5year.jpg");
-} */
-.img {
+.img-gradient{
   height: 210px;
   width: calc(100% + 44px);
   display: block;
@@ -222,4 +203,13 @@ li {
   left: 26px;
   background-size: 100% 210px;
   transform: translateX(-3rem) skewX(12deg);
+}
+.img-gradient::after {
+  display: block;
+  position: relative;
+  background-image:linear-gradient(to top, #33333391 50%, #fff0 100%);
+  margin-top: -210px;
+  height: 210px;
+  width: 100%;
+  content: '';
 }

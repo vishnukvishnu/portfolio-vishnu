@@ -1,5 +1,10 @@
-
-const ParallelSlideCard = ({ frontTitle, backTitle, icon, slidBgImg, tasks }) => {
+const ParallelSlideCard = ({
+  frontTitle,
+  backTitle,
+  icon,
+  slidBgImg,
+  tasks,
+}) => {
   return (
     <div className="col-sm-6">
       <div className="slide-wrapper flex-hztl-center">
@@ -14,8 +19,9 @@ const ParallelSlideCard = ({ frontTitle, backTitle, icon, slidBgImg, tasks }) =>
           </div>
         </div>
         <div className="slide card-back">
-          {/* <div className={`slide-bg ${slidBg}`}></div> */}
-          <img src={slidBgImg} alt="" className="img" />
+          <div className="img-gradient">
+            <img src={slidBgImg} alt="" className="slide-bg" />
+          </div>
           <div className="dev-info">
             <h4>{backTitle}</h4>
             <ul>

@@ -190,15 +190,16 @@ li {
 }
 }
 
-.slide-bg{
+/* .slide-bg{
   background-repeat: no-repeat;
   height: 210px;
-  width: 100%;
+  width: 110%;
   display: block;
   position: absolute;
   top: 0px;
-  left: 0;
+  left: 26px;
   background-size: 100% 210px;
+  transform: translateX(-3rem) skewX(12deg);
 }
 .slide-bg-0{
    background-image:linear-gradient(to right bottom, #fff, #0000001f), url("./assets/images/services/techbu.jpg");
@@ -211,4 +212,14 @@ li {
 }
 .slide-bg-3{
   background-image:linear-gradient(to right bottom, #fff, #0000001f), url("./assets/images/services/5year.jpg");
+} */
+.img {
+  height: 210px;
+  width: calc(100% + 44px);
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 26px;
+  background-size: 100% 210px;
+  transform: translateX(-3rem) skewX(12deg);
 }

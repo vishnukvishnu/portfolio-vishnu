@@ -2,6 +2,10 @@ import { useEffect, useContext, useRef, useState } from 'react';
 import { containerContext } from '../App';
 import Title from './common/Title';
 import ParallelSlideCard from './common/ParallelSlideCard';
+import techbu from '../assets/images/services/techbu.jpg';
+import explodo from '../assets/images/services/explodo.jpg';
+import pbclient from '../assets/images/services/pbclient.jpg';
+import fiveYear from '../assets/images/services/5year.jpg';
 
 const Services = () => {
   const serviceSection = useRef();
@@ -28,28 +32,28 @@ const Services = () => {
           frontTitle="Web developement (React,Angular,JS)"
           backTitle="Web Development"
           icon="fa-solid fa-code"
-          slidBg="slide-bg-0"
+          slidBgImg={techbu}
           tasks={['Reactjs', 'Angular', 'Jaavascript,HTML,SCSS and more..!']}
         />
         <ParallelSlideCard
           frontTitle="Mobile App Development"
           backTitle="Mobile App"
           icon="fa-mobile fa-icons"
-          slidBg="slide-bg-1"
+          slidBgImg={explodo}
           tasks={['Ionic', 'Android', 'IOS']}
         />
         <ParallelSlideCard
           frontTitle="Technical Blog Writing"
           backTitle="Technical Blog"
           icon="fa-pencil-square"
-          slidBg="slide-bg-2"
+          slidBgImg={pbclient}
           tasks={['User Interface', 'API Integrations', 'Medium blogs']}
         />
         <ParallelSlideCard
           frontTitle="Topcoder Challenges"
           backTitle="Top Coder"
           icon="fa-solid fa-laptop-code"
-          slidBg="slide-bg-3"
+          slidBgImg={fiveYear}
           tasks={['Development Challenges', 'First2Finish']}
         />
       </div>

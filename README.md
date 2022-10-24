@@ -73,7 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Pending tasks
 	• Adding smiles in proper places
-	• Adding link to the icons and hover effect
 
 ### Kill running  ports
 	• npx kill-port 3000

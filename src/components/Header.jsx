@@ -49,19 +49,22 @@ const Header = ({ scrollFn }) => {
           <span className="icon"></span>
 
           <ul id="menu" className="right-nav-wrapper flex-vtkl-center">
-            <li className="navigation-link" onClick={scrollFn}>
+            <li className="navigation-link" onClick={() => scrollFn('home')}>
               <i className="fa fa-home-alt"></i>HOME
             </li>
-            <li className="navigation-link" onClick={scrollFn}>
+            <li className="navigation-link" onClick={() => scrollFn('about')}>
               <i className="fa fa-user"></i>ABOUT
             </li>
-            <li className="navigation-link" onClick={scrollFn}>
+            <li
+              className="navigation-link"
+              onClick={() => scrollFn('projects')}
+            >
               <i className="fa fa-project-diagram"></i>PROJECTS
             </li>
-            <li className="navigation-link" onClick={scrollFn}>
+            <li className="navigation-link" onClick={() => scrollFn('service')}>
               <i className="fa fa-code"></i>SERVICES
             </li>
-            <li className="navigation-link" onClick={scrollFn}>
+            <li className="navigation-link" onClick={() => scrollFn('contact')}>
               <i className="fa fa-phone-square-alt"></i>CONTACT
             </li>
             <li className="navigation-link width-100">

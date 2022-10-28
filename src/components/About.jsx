@@ -1,20 +1,15 @@
 import profileImg from '../assets/profile-img.png';
 import profileIimgMb from '../assets/profile-img-mb.png';
-import { useState } from 'react';
-import { useEffect, useContext, useRef } from 'react';
+import { useState, useEffect, useContext, useRef } from 'react';
 import { containerContext } from '../App';
 import Title from './common/Title';
 
 const About = () => {
   const aboutSection = useRef();
-  const { setRef } = useContext(containerContext);
-  const [test, setTest] = useState(null);
+  const { setAbout } = useContext(containerContext);
   useEffect(() => {
-    setTest(aboutSection.current.offsetTop);
+    setAbout(aboutSection.current.offsetTop, 'about');
   }, []);
-  useEffect(() => {
-    setRef(test, 'about');
-  }, [test]);
 
   const [challenges] = useState([
     'https://lssa.netlify.app',
@@ -23,7 +18,7 @@ const About = () => {
     'https://holmes-e-kyc-ui.netlify.app',
   ]);
   return (
-    <div className="about-wrapper" ref={aboutSection} id="about">
+    <div className="about-wrapper" ref={aboutSection}>
       <div className="row m-0">
         <div className="col-12 col-md-4"></div>
         <Title title="About Me" subTitle="Get to know me :)" />

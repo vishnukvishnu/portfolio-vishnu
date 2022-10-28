@@ -9,11 +9,10 @@ import { useContext } from 'react';
 import { containerContext } from '../App';
 
 const PortfolioWrapper = () => {
-  const { refVal } = useContext(containerContext);
+  const context = useContext(containerContext);
   const scrollDown = (section) => {
-    console.log(section, '............', refVal[section]);
     window.scrollTo({
-      top: refVal[section] - 150,
+      top: context[section] - 150,
       behavior: 'smooth',
     });
   };

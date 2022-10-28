@@ -1,4 +1,4 @@
-import { useEffect, useContext, useRef, useState } from 'react';
+import { useEffect, useContext, useRef } from 'react';
 import { containerContext } from '../App';
 import Title from './common/Title';
 import ParallelSlideCard from './common/ParallelSlideCard';
@@ -9,20 +9,12 @@ import fiveYear from '../assets/images/services/5year.jpg';
 
 const Services = () => {
   const serviceSection = useRef();
-  const { setRef } = useContext(containerContext);
-  const [test, setTest] = useState(null);
+  const { setService } = useContext(containerContext);
   useEffect(() => {
-    setTest(serviceSection.current.offsetTop);
+    setService(serviceSection.current.offsetTop, 'service');
   }, []);
-  useEffect(() => {
-    setRef(test, 'service');
-  }, [test]);
   return (
-    <div
-      className="service-wrapper header-align"
-      ref={serviceSection}
-      id="service"
-    >
+    <div className="service-wrapper header-align" ref={serviceSection}>
       <Title
         title="What I can do ?"
         subTitle="I can't be the most talented but I can work really hard :)"

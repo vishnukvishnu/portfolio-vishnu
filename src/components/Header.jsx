@@ -1,10 +1,6 @@
-// import headerLogo from '../assets/images/logos/logo-header.png';
 import logo from '../assets/logo.png';
-// import { useContext } from 'react';
-// import { containerContext } from '../App';
 
 const Header = ({ scrollFn }) => {
-  // const { refVal } = useContext(containerContext);
   return (
     <div className="header-wrapper">
       <nav
@@ -16,19 +12,19 @@ const Header = ({ scrollFn }) => {
         </div>
         <ul className="right-nav-wrapper flex-vtkl-center">
           <li className="navigation-link" onClick={() => scrollFn('home')}>
-            <a href="#home">HOME</a>
+            HOME
           </li>
           <li className="navigation-link" onClick={() => scrollFn('about')}>
-            <a href="#about">ABOUT</a>
+            ABOUT
           </li>
           <li className="navigation-link" onClick={() => scrollFn('projects')}>
-            <a href="#projects">PROJECTS</a>
+            PROJECTS
           </li>
           <li className="navigation-link" onClick={() => scrollFn('service')}>
             SERVICES
           </li>
-          <li className="navigation-link" onClick={scrollFn}>
-            <a href="#contact">CONTACT</a>
+          <li className="navigation-link" onClick={() => scrollFn('contact')}>
+            CONTACT
           </li>
           <li className="navigation-link width-100">
             <a

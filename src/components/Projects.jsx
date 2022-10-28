@@ -9,26 +9,18 @@ import tcLogo from '../assets/images/logos/topcoder.png';
 import Title from './common/Title';
 import ImageHoverCard from './common/ImageHoverCard';
 
-import { useEffect, useContext, useRef, useState } from 'react';
+import { useEffect, useContext, useRef } from 'react';
 import { containerContext } from '../App';
 
 const Projects = () => {
   const projectSection = useRef();
-  const { setRef } = useContext(containerContext);
-  const [test, setTest] = useState(null);
+  const { setProjects } = useContext(containerContext);
   useEffect(() => {
-    setTest(projectSection.current.offsetTop);
+    setProjects(projectSection.current.offsetTop, 'projects');
   }, []);
-  useEffect(() => {
-    setRef(test, 'about');
-  }, [test]);
 
   return (
-    <div
-      className="project-wrapper header-align"
-      ref={projectSection}
-      id="projects"
-    >
+    <div className="project-wrapper header-align" ref={projectSection}>
       <Title
         title="Projects"
         subTitle=" Here are few samples of my previous work :)"

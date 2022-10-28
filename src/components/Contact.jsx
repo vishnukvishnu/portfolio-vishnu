@@ -1,11 +1,9 @@
 import Title from './common/Title';
 import Card from './common/Card';
-import { useEffect, useRef, useContext } from 'react';
-import { containerContext } from '../App';
+import { useEffect, useRef } from 'react';
 
-const Contact = () => {
+const Contact = ({setContact}) => {
   const contactSection = useRef(0);
-  const { setContact } = useContext(containerContext);
   useEffect(() => {
     setContact(contactSection.current.offsetTop, 'contact');
   }, []);

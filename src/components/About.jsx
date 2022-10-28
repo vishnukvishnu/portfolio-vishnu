@@ -1,12 +1,10 @@
 import profileImg from '../assets/profile-img.png';
 import profileIimgMb from '../assets/profile-img-mb.png';
-import { useState, useEffect, useContext, useRef } from 'react';
-import { containerContext } from '../App';
+import { useState, useEffect, useRef } from 'react';
 import Title from './common/Title';
 
-const About = () => {
+const About = ({setAbout}) => {
   const aboutSection = useRef();
-  const { setAbout } = useContext(containerContext);
   useEffect(() => {
     setAbout(aboutSection.current.offsetTop, 'about');
   }, []);

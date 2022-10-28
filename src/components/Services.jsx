@@ -1,5 +1,4 @@
-import { useEffect, useContext, useRef } from 'react';
-import { containerContext } from '../App';
+import { useEffect, useRef } from 'react';
 import Title from './common/Title';
 import ParallelSlideCard from './common/ParallelSlideCard';
 import techbu from '../assets/images/services/techbu.jpg';
@@ -7,9 +6,8 @@ import explodo from '../assets/images/services/explodo.jpg';
 import pbclient from '../assets/images/services/pbclient.jpg';
 import fiveYear from '../assets/images/services/5year.jpg';
 
-const Services = () => {
+const Services = ({setService}) => {
   const serviceSection = useRef();
-  const { setService } = useContext(containerContext);
   useEffect(() => {
     setService(serviceSection.current.offsetTop, 'service');
   }, []);

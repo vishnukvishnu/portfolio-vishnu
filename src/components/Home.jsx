@@ -1,12 +1,10 @@
 import profileImg from '../assets/profile-home.png';
-import { useState, useEffect, useRef, useContext } from 'react';
-import { containerContext } from '../App';
+import { useState, useEffect, useRef } from 'react';
 
-const Home = () => {
+const Home = ({ setHome }) => {
   const homeSection = useRef(0);
-  const { setHome } = useContext(containerContext);
   useEffect(() => {
-    setHome(homeSection.current.offsetTop, "home");
+    setHome(homeSection.current.offsetTop, 'home');
   }, []);
   const [socialMedias] = useState([
     { link: 'https://www.linkedin.com/in/vishnu--k', icon: 'linkedin' },
@@ -19,7 +17,7 @@ const Home = () => {
     { link: 'https://twitter.com/vishnuk__k', icon: 'twitter' },
   ]);
   return (
-    <div className="row m-0 home-wrapper" ref={homeSection} >
+    <div className="row m-0 home-wrapper" ref={homeSection}>
       <div className="col-12 col-md-7 left-home-wrapper">
         <div className="wrapper">
           <h4 className="header-2 header-mb-2 header-mb-2 mb-4">

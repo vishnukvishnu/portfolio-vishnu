@@ -9,12 +9,10 @@ import tcLogo from '../assets/images/logos/topcoder.png';
 import Title from './common/Title';
 import ImageHoverCard from './common/ImageHoverCard';
 
-import { useEffect, useContext, useRef } from 'react';
-import { containerContext } from '../App';
+import { useEffect, useRef } from 'react';
 
-const Projects = () => {
+const Projects = ({setProjects}) => {
   const projectSection = useRef();
-  const { setProjects } = useContext(containerContext);
   useEffect(() => {
     setProjects(projectSection.current.offsetTop, 'projects');
   }, []);

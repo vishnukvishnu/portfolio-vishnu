@@ -5,12 +5,17 @@ import Service from './Services';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
-import { useContext } from 'react';
-import { containerContext } from '../App';
+import { useState } from 'react';
 
 const PortfolioWrapper = () => {
-  const context = useContext(containerContext);
-  const scrollDown = (section) => {
+  const [home, setHome] = useState(0);
+  const [about, setAbout] = useState(0);
+  const [projects, setProjects] = useState(0);
+  const [service, setService] = useState(0);
+  const [contact, setContact] = useState(0);
+  const context = { home, about, projects, service, contact };
+
+  const scrollFn = (section) => {
     window.scrollTo({
       top: context[section] - 150,
       behavior: 'smooth',
@@ -18,13 +23,13 @@ const PortfolioWrapper = () => {
   };
   return (
     <div>
-      <Header scrollFn={scrollDown} />
+      <Header scrollFn={scrollFn} />
       <main>
-        <Home />
-        <About />
-        <Projects />
-        <Service />
-        <Contact />
+        <Home setHome={setHome} />
+        <About setAbout={setAbout} />
+        <Projects setProjects={setProjects} />
+        <Service setService={setService} />
+        <Contact setContact={setContact} />
         <Footer />
       </main>
     </div>

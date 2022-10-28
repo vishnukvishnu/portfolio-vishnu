@@ -38,8 +38,7 @@ const Projects = () => {
           frontImg={oracle}
           backImg={oracleLogo}
           title="ECP IOT"
-          desc="Worked on a migration of the on premise analysis server (Aware)
-                to a new cloud-based analysis service."
+          desc="Works on a product to resolve IoT device issues for products in various global business units."
         />
         <ImageHoverCard
           frontImg={philips}

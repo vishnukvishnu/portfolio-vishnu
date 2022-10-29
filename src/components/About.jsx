@@ -19,7 +19,7 @@ const About = ({ setAbout }) => {
     <div className="about-wrapper" ref={aboutSection}>
       <div className="row m-0">
         <div className="col-12 col-md-4"></div>
-        <Title title="About Me" subTitle="Get to know me :)" />
+        <Title title="About Me" subTitle="Get to know me 😊" />
       </div>
       <div className="row m-0">
         <div className="col-12 col-md-4 left-wrapper flex-center">

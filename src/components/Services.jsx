@@ -15,7 +15,7 @@ const Services = ({setService}) => {
     <div className="service-wrapper header-align" ref={serviceSection}>
       <Title
         title="What I can do ?"
-        subTitle="I can't be the most talented but I can work really hard :)"
+        subTitle="I can't be the most talented but I can work really hard 😵"
       />
       <div className="row services-details-wrapper">
         <ParallelSlideCard

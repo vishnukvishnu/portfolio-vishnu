@@ -21,7 +21,7 @@ const Projects = ({setProjects}) => {
     <div className="project-wrapper header-align" ref={projectSection}>
       <Title
         title="Projects"
-        subTitle="Here are a few samples of my previous work :)"
+        subTitle="Here are a few samples of my previous work 👇"
       />
       <div className="row project-details-wrapper">
         <ImageHoverCard

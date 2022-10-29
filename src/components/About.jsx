@@ -37,7 +37,7 @@ const About = ({ setAbout }) => {
           </h6>
           <p className="mt-4 mb-4">
             Experienced Frontend Developer with a demonstrated history of
-            working in the information technology and services industry. Skilled
+            working in the information technology and services industry.Skilled
             in
             <strong>
               {` ReactJs, Redux, Angular 8, Nodejs, Javascript, SCSS, HTML, NextJS,

@@ -30,8 +30,7 @@ const About = ({ setAbout }) => {
             </picture>
           </div>
         </div>
-        <div className="col-md-8 right-wrapper">
-          <h5 className="mt-4 mb-3 roboto-bold red-c">Who am i?</h5>
+        <div className="col-md-8 mt-5 right-wrapper">
           <h6>
             I'm Vishnu K, a senior frontend developer with <strong>7+ </strong>
             years of experience.

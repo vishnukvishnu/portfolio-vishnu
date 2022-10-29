@@ -9,7 +9,7 @@ const Contact = ({setContact}) => {
   }, []);
   return (
     <div className="contact-wrapper header-align" ref={contactSection}>
-      <Title title="Get in touch" subTitle="Let's build something togther :)" />
+      <Title title="Get in touch" subTitle="Let's build something together :)" />
       <div className="row contact-details-wrapper">
         <Card
           title="Location"

@@ -19,7 +19,7 @@ const Services = ({setService}) => {
       />
       <div className="row services-details-wrapper">
         <ParallelSlideCard
-          frontTitle="Web developement (React,Angular,JS)"
+          frontTitle="Web development (React,Angular,JS)"
           backTitle="Web Development"
           icon="fa-solid fa-code"
           slidBgImg={techbu}

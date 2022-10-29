@@ -21,7 +21,7 @@ const Projects = ({setProjects}) => {
     <div className="project-wrapper header-align" ref={projectSection}>
       <Title
         title="Projects"
-        subTitle=" Here are few samples of my previous work :)"
+        subTitle="Here are a few samples of my previous work :)"
       />
       <div className="row project-details-wrapper">
         <ImageHoverCard
@@ -34,7 +34,7 @@ const Projects = ({setProjects}) => {
           frontImg={philips}
           backImg={philipsLogo}
           title="Asset & Medical Domain"
-          desc=" Worked on multiple project(Asset ManageMent & Medical domain)
+          desc="Worked on multiple projects(Asset ManageMent & Medical domain)
                 using React & Angular"
         />
         <ImageHoverCard

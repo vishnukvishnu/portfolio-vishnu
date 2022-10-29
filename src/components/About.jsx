@@ -3,7 +3,7 @@ import profileIimgMb from '../assets/profile-img-mb.png';
 import { useState, useEffect, useRef } from 'react';
 import Title from './common/Title';
 
-const About = ({setAbout}) => {
+const About = ({ setAbout }) => {
   const aboutSection = useRef();
   useEffect(() => {
     setAbout(aboutSection.current.offsetTop, 'about');
@@ -34,7 +34,7 @@ const About = ({setAbout}) => {
           <h5 className="mt-4 mb-3 roboto-bold red-c">Who am i?</h5>
           <h6>
             I'm Vishnu K, a senior frontend developer with <strong>7+ </strong>
-            years of experience
+            years of experience.
           </h6>
           <p className="mt-4 mb-4">
             Experienced Frontend Developer with a demonstrated history of
@@ -45,12 +45,12 @@ const About = ({setAbout}) => {
               MongoDB, Agile Methodologies, Angular Material, inVision,
               Bootstrap, and Adobe XD, Karma, Jasmine, React testing library.`}
             </strong>
-            Strong engineering professional with an M-Tech focused in Computer
+            Strong engineering professional with M-Tech focused in Computer
             Science from <strong>Bits Pilani</strong>.
           </p>
           <div className="pt-4 pb-4 mt-5 technology-wrapper">
             <h6 className="roboto-bold mb-3">
-              Here are few samples of my topcoder challenge:
+              Here are a few samples of my topcoder challenge:
             </h6>
             <ul className="row">
               {challenges.map((challenge) => (

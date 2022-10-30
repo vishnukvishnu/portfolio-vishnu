@@ -23,7 +23,7 @@ const Home = ({ setHome }) => {
           <h4 className="header-2 header-mb-2 header-mb-2 mb-4">
             Welcome to my portfolio!
           </h4>
-          <h1 className="header-1 header-mb-1 header-sm-mt-2">VISHNU K</h1>
+          <h1 className="header-1 header-mb-1 red-c header-sm-mt-2">VISHNU K</h1>
           <div className="programming-wrapper flex-vtkl-center">
             {/* <img src={lapIcon} alt="" /> */}
             <i className="fa fa-code"></i>

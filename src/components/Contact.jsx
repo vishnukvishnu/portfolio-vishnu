@@ -13,7 +13,7 @@ const Contact = ({setContact}) => {
       <div className="row contact-details-wrapper">
         <Card
           title="Location"
-          subTitle="Kerala, India"
+          subTitle="Bangalore, India"
           icon="fa-map-marker-alt"
         />
         <Card title="Phone" subTitle="(91) 9645160131" icon="fa-phone" />

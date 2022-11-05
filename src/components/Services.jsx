@@ -5,6 +5,7 @@ import techbu from '../assets/images/services/techbu.jpg';
 import explodo from '../assets/images/services/explodo.jpg';
 import pbclient from '../assets/images/services/pbclient.jpg';
 import fiveYear from '../assets/images/services/5year.jpg';
+import talkwithvishnu from '../assets/images/services/talkwithvishnu.jpg';
 
 const Services = ({setService}) => {
   const serviceSection = useRef();
@@ -43,7 +44,7 @@ const Services = ({setService}) => {
           frontTitle="Topcoder Challenges"
           backTitle="Top Coder"
           icon="fa-solid fa-laptop-code"
-          slidBgImg={fiveYear}
+          slidBgImg={talkwithvishnu}
           tasks={['Development Challenges', 'First2Finish']}
         />
       </div>

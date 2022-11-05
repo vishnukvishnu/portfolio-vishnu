@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dd74f16f.css",
-    "main.js": "/static/js/main.18daf401.js",
+    "main.js": "/static/js/main.5f270846.js",
     "static/js/787.c461a783.chunk.js": "/static/js/787.c461a783.chunk.js",
     "static/media/oracle.png": "/static/media/oracle.47a55843977074f968ca.png",
     "static/media/topcoder-banner.png": "/static/media/topcoder-banner.a32a82a7f7690069787a.png",
@@ -16,16 +16,17 @@
     "static/media/5year.jpg": "/static/media/5year.7432f40f8e6617dc8b09.jpg",
     "static/media/Sansita-Bold.otf": "/static/media/Sansita-Bold.69174bdef987b26cbe5f.otf",
     "static/media/philips.jpg": "/static/media/philips.523a6818d68634248f21.jpg",
+    "static/media/talkwithvishnu.jpg": "/static/media/talkwithvishnu.2959ec98320278ecd7d3.jpg",
     "static/media/philips-logo.png": "/static/media/philips-logo.ba57f6814efae5844206.png",
     "static/media/profile-img-mb.png": "/static/media/profile-img-mb.2a959c599ca8e540d29a.png",
     "static/media/pb-logo.png": "/static/media/pb-logo.e772c53db01a616d73bd.png",
     "index.html": "/index.html",
     "main.dd74f16f.css.map": "/static/css/main.dd74f16f.css.map",
-    "main.18daf401.js.map": "/static/js/main.18daf401.js.map",
+    "main.5f270846.js.map": "/static/js/main.5f270846.js.map",
     "787.c461a783.chunk.js.map": "/static/js/787.c461a783.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd74f16f.css",
-    "static/js/main.18daf401.js"
+    "static/js/main.5f270846.js"
   ]
 }

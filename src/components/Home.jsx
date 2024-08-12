@@ -1,4 +1,3 @@
-// import profileImg from '../assets/profile-mac.png';
 import { useState, useEffect, useRef } from 'react';
 
 const Home = ({ setHome }) => {

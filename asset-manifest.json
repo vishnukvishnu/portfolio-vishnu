@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e59158dd.css",
-    "main.js": "/static/js/main.2496652f.js",
+    "main.js": "/static/js/main.77d5008b.js",
     "static/js/787.c461a783.chunk.js": "/static/js/787.c461a783.chunk.js",
     "static/media/about.png": "/static/media/about.55f33a24434b0ee6f2d3.png",
     "static/media/about-mobile.png": "/static/media/about-mobile.a0e313dffb65f216d4d2.png",
@@ -22,11 +22,11 @@
     "static/media/pb-logo.png": "/static/media/pb-logo.e772c53db01a616d73bd.png",
     "index.html": "/index.html",
     "main.e59158dd.css.map": "/static/css/main.e59158dd.css.map",
-    "main.2496652f.js.map": "/static/js/main.2496652f.js.map",
+    "main.77d5008b.js.map": "/static/js/main.77d5008b.js.map",
     "787.c461a783.chunk.js.map": "/static/js/787.c461a783.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e59158dd.css",
-    "static/js/main.2496652f.js"
+    "static/js/main.77d5008b.js"
   ]
 }

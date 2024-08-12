@@ -26,7 +26,7 @@ const Home = ({ setHome }) => {
           <div className="programming-wrapper flex-vtkl-center">
             {/* <img src={lapIcon} alt="" /> */}
             <i className="fa fa-code"></i>
-            <h5 className="header-3">UI/UX Developer</h5>
+            <h5 className="header-3">UI/UX Engineer</h5>
           </div>
           <ul className="social-media-wrapper">
             {socialMedias.map((media) => (

@@ -1,0 +1,215 @@
+/*
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :      Big desktop
+
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+ORDER: Base + typography > general layout + grid > page layout > components
+
+1em = 16px
+*/
+/* *,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+} */
+
+/* html {
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+} */
+
+
+
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("./assets//fonts//Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("./assets//fonts//Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Sansita-Bold";
+  src: url("./assets//fonts//Sansita-Bold.otf");
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li,
+p,
+label {
+  padding: 0px;
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style-type: none;
+}
+
+.roboto-bold{
+  font-family: "Roboto-Bold";
+}
+.roboto-medium{
+  font-family: "Roboto-Medium";
+}
+.display-hide{
+  display: none;
+}
+.display-block{
+  display: block;
+}
+/* .red-c{
+  color: #f74709;
+} */
+.red-c{
+  color: #dd2c00;
+}
+.black-c{
+  color: #000;
+}
+.width-100{
+  width: 100%;
+}
+.header-1{
+  font-size: 3.6rem;
+  font-weight: bold;
+  font-family: "Sansita-Bold";
+}
+
+.header-2{
+  font-size: 2.6rem;
+  font-weight: bold;
+  font-family: "Sansita-Bold";
+}
+.header-3{
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: "Sansita-Bold";
+}
+.btn-std{
+  background-color: #fff;
+  color: #000;
+  border: .1rem solid #dfdddd8c;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: .4rem 1.4rem;
+  display: inline-block;
+  border-radius: .3rem;
+  position: relative;
+  font-size: .75rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 15%);
+}
+.btn-std:hover{
+  background: #000; 
+  color: #fff;
+  transition: background .5s, color .5s;
+}
+.btn-std:hover .fa-arrow-right{
+  display: inline-block;
+  transition: display 1s;
+}
+.btn-std .fa-arrow-right{
+  display: none;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 18rem;
+  margin: 50px 10px 0px 10px;
+  box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 15%);
+  border-radius: .4rem;
+}
+.flex-hztl-center{
+  display: flex;
+  justify-content: center;
+}
+.flex-vtkl-center{
+  display: flex;
+  align-items: center;
+}
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header-align{
+  padding: 0 150px;
+  margin-top: 120px;
+}
+
+/* commone meeadia queries */
+@media (min-width: 1400px){
+  .col-xxl-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+}
+
+.slide-bg{
+  height: 210px;
+  width: 100%;
+}
+.img-gradient{
+  height: 210px;
+  width: calc(100% + 44px);
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 26px;
+  background-size: 100% 210px;
+  transform: translateX(-3rem) skewX(12deg);
+}
+.img-gradient::after {
+  display: block;
+  position: relative;
+  background-image:linear-gradient(to top, #33333391 50%, #fff0 100%);
+  margin-top: -210px;
+  height: 210px;
+  width: 100%;
+  content: '';
+}

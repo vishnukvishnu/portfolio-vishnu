@@ -1,19 +1,19 @@
-import profileImg from '../assets/profile-img.png';
-import profileIimgMb from '../assets/profile-img-mb.png';
-import { useState, useEffect, useRef } from 'react';
-import Title from './common/Title';
+import profileImg from "../assets/about.png";
+import profileIimgMb from "../assets/about-mobile.png";
+import { useState, useEffect, useRef } from "react";
+import Title from "./common/Title";
 
 const About = ({ setAbout }) => {
   const aboutSection = useRef();
   useEffect(() => {
-    setAbout(aboutSection.current.offsetTop, 'about');
+    setAbout(aboutSection.current.offsetTop, "about");
   }, []);
 
   const [challenges] = useState([
-    'https://lssa.netlify.app',
-    'https://embarkk.netlify.app',
-    'https://wilp-faculty.netlify.app',
-    'https://holmes-e-kyc-ui.netlify.app',
+    "https://lssa.netlify.app",
+    "https://embarkk.netlify.app",
+    "https://wilp-faculty.netlify.app",
+    "https://holmes-e-kyc-ui.netlify.app",
   ]);
   return (
     <div className="about-wrapper" ref={aboutSection}>
@@ -31,21 +31,21 @@ const About = ({ setAbout }) => {
           </div>
         </div>
         <div className="col-md-8 mt-5 right-wrapper">
-          <h6>
-            I'm Vishnu K, a senior frontend developer with <strong>7+ </strong>
-            years of experience.
-          </h6>
           <p className="mt-4 mb-4">
-            Experienced Frontend Developer with a demonstrated history of
-            working in the information technology and services industry.Skilled
-            in
+            Experienced Engineer with a solid track record in the software
+            development. I specialize in modern web development technologies
+            including{" "}
             <strong>
-              {` ReactJs, Redux, Angular 8, Nodejs, Javascript, SCSS, HTML, NextJS,
-              MongoDB, Agile Methodologies, Angular Material, inVision,
-              Bootstrap, and Adobe XD, Karma, Jasmine, React testing library.`}
+              ReactJs, Nodejs, Javascript, Redux, Angular, SCSS, HTML, NextJS,
+              MongoDB, ExpressJs, and Agile Methodologies.{" "}
             </strong>
-            Strong engineering professional with M-Tech focused in Computer
-            Science from <strong>Bits Pilani</strong>.
+            I have hands-on experience with inVision, Bootstrap, Adobe XD,
+            Karma, Jasmine, Jest, and the React testing library. My work focuses
+            on building high-quality, maintainable front-end solutions that
+            deliver exceptional user experiences. With an M-Tech in Computer
+            Science from <strong>BITS Pilani </strong>. Explore my portfolio to
+            see how I translate complex requirements into intuitive and
+            efficient digital experiences.
           </p>
           <div className="pt-4 pb-4 mt-5 technology-wrapper">
             <h6 className="roboto-bold mb-3">

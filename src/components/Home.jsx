@@ -1,4 +1,4 @@
-import profileImg from '../assets/profile-home.png';
+// import profileImg from '../assets/profile-mac.png';
 import { useState, useEffect, useRef } from 'react';
 
 const Home = ({ setHome }) => {
@@ -18,7 +18,7 @@ const Home = ({ setHome }) => {
   ]);
   return (
     <div className="row m-0 home-wrapper" ref={homeSection}>
-      <div className="col-12 col-md-7 left-home-wrapper">
+      <div className="col-12 col-md-6 left-home-wrapper">
         <div className="wrapper">
           <h4 className="header-2 header-mb-2 header-mb-2 mb-4">
             Welcome to my portfolio!
@@ -45,9 +45,9 @@ const Home = ({ setHome }) => {
           </ul>
         </div>
       </div>
-      <div className="col-12 col-md-5 right-home-wrapper flex-hztl-center">
-        {/* <div className='profile-image'></div> */}
-        <img src={profileImg} alt="profile" />
+      <div className="col-12 col-md-6 right-home-wrapper flex-hztl-center">
+        <div className='profile-image'></div>
+        {/* <img src={profileImg} alt="profile" /> */}
       </div>
     </div>
   );

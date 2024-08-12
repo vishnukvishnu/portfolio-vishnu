@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd74f16f.css",
-    "main.js": "/static/js/main.5f270846.js",
+    "main.css": "/static/css/main.e59158dd.css",
+    "main.js": "/static/js/main.2496652f.js",
     "static/js/787.c461a783.chunk.js": "/static/js/787.c461a783.chunk.js",
+    "static/media/about.png": "/static/media/about.55f33a24434b0ee6f2d3.png",
+    "static/media/about-mobile.png": "/static/media/about-mobile.a0e313dffb65f216d4d2.png",
     "static/media/oracle.png": "/static/media/oracle.47a55843977074f968ca.png",
     "static/media/topcoder-banner.png": "/static/media/topcoder-banner.a32a82a7f7690069787a.png",
-    "static/media/profile-home.png": "/static/media/profile-home.83fc44906399f461da63.png",
+    "static/media/profile-home.png": "/static/media/profile-home.f8994411fab627b46dd4.png",
     "static/media/explodo.jpg": "/static/media/explodo.4569701c809cce116458.jpg",
-    "static/media/profile-img.png": "/static/media/profile-img.4eadae8c81e9eeca61ce.png",
     "static/media/pb-banner.png": "/static/media/pb-banner.3a9f8989498d2ba410b2.png",
     "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.0fcd45fbfc419c42c8b9.ttf",
     "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.17451a4c1cd55e33ac57.ttf",
@@ -18,15 +19,14 @@
     "static/media/philips.jpg": "/static/media/philips.523a6818d68634248f21.jpg",
     "static/media/talkwithvishnu.jpg": "/static/media/talkwithvishnu.2959ec98320278ecd7d3.jpg",
     "static/media/philips-logo.png": "/static/media/philips-logo.ba57f6814efae5844206.png",
-    "static/media/profile-img-mb.png": "/static/media/profile-img-mb.2a959c599ca8e540d29a.png",
     "static/media/pb-logo.png": "/static/media/pb-logo.e772c53db01a616d73bd.png",
     "index.html": "/index.html",
-    "main.dd74f16f.css.map": "/static/css/main.dd74f16f.css.map",
-    "main.5f270846.js.map": "/static/js/main.5f270846.js.map",
+    "main.e59158dd.css.map": "/static/css/main.e59158dd.css.map",
+    "main.2496652f.js.map": "/static/js/main.2496652f.js.map",
     "787.c461a783.chunk.js.map": "/static/js/787.c461a783.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd74f16f.css",
-    "static/js/main.5f270846.js"
+    "static/css/main.e59158dd.css",
+    "static/js/main.2496652f.js"
   ]
 }
